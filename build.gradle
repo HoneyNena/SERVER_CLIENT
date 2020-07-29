@@ -65,3 +65,21 @@ dependencies {
             libs.jackson_databind,
             libs.jackson_annotations,
             libs.swift,
+            libs.jaxb,
+            libs.guava
+
+    testCompile libs.test.assertj,
+            libs.test.mockito,
+            libs.test.junit
+}
+
+jar {
+    baseName = 'trading-office-confirmation-sender'
+    version = '1.0.0'
+}
+
+defaultTasks 'clean', 'bootRepackage'
+
+task stage {
+    dependsOn 'bootRepackage'
+}
