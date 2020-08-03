@@ -3,4 +3,8 @@ apply plugin: 'jacoco'
 jacocoTestReport {
     reports {
         xml.enabled = true
-        html.e
+        html.enabled = true
+    }
+}
+
+check.dependsOn jacocoTestReport
