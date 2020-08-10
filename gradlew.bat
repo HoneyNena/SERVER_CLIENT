@@ -59,4 +59,8 @@ set _SKIP=2
 :win9xME_args_slurp
 if "x%~1" == "x" goto execute
 
-se
+set CMD_LINE_ARGS=%*
+goto execute
+
+:4NT_args
+@rem Get arguments from the 4NT Shell from JP 
