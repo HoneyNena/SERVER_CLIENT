@@ -1,3 +1,4 @@
 ext {
     libs = libsMap(
-            jackson: 'com.fasterxml.jackson.core:jackson-core:2.7.1'
+            jackson: 'com.fasterxml.jackson.core:jackson-core:2.7.1',
+            jackson_databind: 'com.fasterxml.jackson.core:jackson-databind:2.7.1-1',
