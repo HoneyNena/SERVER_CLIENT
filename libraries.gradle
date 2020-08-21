@@ -5,4 +5,5 @@ ext {
             jackson_annotations: 'com.fasterxml.jackson.core:jackson-annotations:2.7.1',
             guava: 'com.google.guava:guava:19.0',
             spring: [
-                boot_actuator
+                boot_actuator: 'org.springframework.boot:spring-boot-starter-actuator',
+                boot_web: 'org.springfra
