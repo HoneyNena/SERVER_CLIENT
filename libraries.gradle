@@ -6,4 +6,5 @@ ext {
             guava: 'com.google.guava:guava:19.0',
             spring: [
                 boot_actuator: 'org.springframework.boot:spring-boot-starter-actuator',
-                boot_web: 'org.springfra
+                boot_web: 'org.springframework.boot:spring-boot-starter-web',
+                boot_amqp: 'org.springframework.bo
