@@ -10,4 +10,7 @@ ext {
                 boot_amqp: 'org.springframework.boot:spring-boot-starter-amqp',
                 eureka_client: 'org.springframework.cloud:spring-cloud-starter-eureka',
                 feign: 'org.springframework.cloud:spring-cloud-starter-feign',
-                cloud_config: 'org.springframework.cloud:spring-cloud
+                cloud_config: 'org.springframework.cloud:spring-cloud-starter-config'
+            ],
+            test: [
+                    junit: 'junit:junit:4.12',
