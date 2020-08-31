@@ -22,4 +22,5 @@ ext {
             },
             itext: 'com.lowagie:itext:2.1.7',
             swift: dependencies.create('com.prowidesoftware:pw-swift-core:SRU2015-7.7') {
-                excl
+                exclude group: 'javax.xml', module: 'jaxb-api'
+                exclude group: 'javax.xml', m
