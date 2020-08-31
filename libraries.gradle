@@ -18,4 +18,7 @@ ext {
                     mockito: 'org.mockito:mockito-core:2.0.42-beta'
             ],
             jasperreports: dependencies.create('net.sf.jasperreports:jasperreports:6.2.0') {
-                exclude group: 'org.olap4j', module
+                exclude group: 'org.olap4j', module: 'olap4j'
+            },
+            itext: 'com.lowagie:itext:2.1.7',
+            swift: dependen
