@@ -31,4 +31,7 @@ ext {
 
 def libsMap(Map<String, ?> map) {
     def processMap
-    processMap = {
+    processMap = { innerMap ->
+        innerMap.each {
+            if (it.value instanceof Map) {
+            
