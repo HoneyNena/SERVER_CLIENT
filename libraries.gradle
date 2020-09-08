@@ -34,4 +34,7 @@ def libsMap(Map<String, ?> map) {
     processMap = { innerMap ->
         innerMap.each {
             if (it.value instanceof Map) {
-            
+                innerMap[it.key] = processMap(it.value)
+            }
+        }
+        innerM
