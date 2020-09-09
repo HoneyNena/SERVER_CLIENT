@@ -39,4 +39,6 @@ def libsMap(Map<String, ?> map) {
         }
         innerMap.asImmutable().withDefault {
             throw new InvalidUserDataException(
-                    "No entry 
+                    "No entry '$it' in dependency map (candidates: ${innerMap.keySet().sort().join(", ")})" )
+        }
+ 
