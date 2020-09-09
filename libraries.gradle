@@ -37,4 +37,6 @@ def libsMap(Map<String, ?> map) {
                 innerMap[it.key] = processMap(it.value)
             }
         }
-        innerM
+        innerMap.asImmutable().withDefault {
+            throw new InvalidUserDataException(
+                    "No entry 
