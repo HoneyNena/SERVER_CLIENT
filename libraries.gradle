@@ -41,4 +41,6 @@ def libsMap(Map<String, ?> map) {
             throw new InvalidUserDataException(
                     "No entry '$it' in dependency map (candidates: ${innerMap.keySet().sort().join(", ")})" )
         }
- 
+    }
+    processMap(map)
+}
