@@ -81,3 +81,29 @@ ignored.
 The logs directory contains important diagnostic information about the
 agent. In particular, view newrelic/logs/newrelic_agent.log if you are
 troubleshooting.
+
+If you use the New Relic API in your code, you will need to include the
+newrelic-api.jar file at compile time and add it as a dependency to your
+app. Make sure that you use the same version for your API and newrelic.jar.
+New Relic publishes to the Maven Central Repository, so you can add a
+dependency to newrelic-api in your favorite build tool.
+
+
+Note to Java SE 5 Users
+-----------------------
+This version of the agent works with Java SE 6, 7 and 8. At signup or in your
+Account Settings page, you have the option to download a version of the
+agent that works with Java SE 5.
+
+
+Support
+-------
+Email <support@newrelic.com>, or visit our support site at
+
+  https://support.newrelic.com
+
+
+Licenses
+--------
+See the LICENSE file for New Relic's license terms and the list of
+third-party components that are included in the agent.
