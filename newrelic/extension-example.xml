@@ -2,4 +2,6 @@
 
 <!-- This is an example of a custom instrumentation extension XML file. -->
 
-<extension xmlns="https://newrelic.com/docs/java/
+<extension xmlns="https://newrelic.com/docs/java/xsd/v1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="newreli
