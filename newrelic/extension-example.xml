@@ -4,4 +4,6 @@
 
 <extension xmlns="https://newrelic.com/docs/java/xsd/v1.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="newreli
+	xsi:schemaLocation="newrelic-extension extension.xsd " name="extension-example"
+	version="1.0" enabled="true">
+	<instrumentati
