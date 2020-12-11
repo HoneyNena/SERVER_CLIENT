@@ -6,4 +6,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="newrelic-extension extension.xsd " name="extension-example"
 	version="1.0" enabled="true">
-	<instrumentati
+	<instrumentation>
+
+		<!-- This point cut instruments some of the methods in the class com.sample.SampleArrayList. -->
