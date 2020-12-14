@@ -10,4 +10,6 @@
 
 		<!-- This point cut instruments some of the methods in the class com.sample.SampleArrayList. -->
 		<pointcut transactionStartPoint="true"
-			excludeFromTransactionTrace="false" ignoreTr
+			excludeFromTransactionTrace="false" ignoreTransaction="false">
+			<className>com.sample.SampleArrayList</className>
+			<!-- Instruments the method
