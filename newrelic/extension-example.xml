@@ -12,4 +12,8 @@
 		<pointcut transactionStartPoint="true"
 			excludeFromTransactionTrace="false" ignoreTransaction="false">
 			<className>com.sample.SampleArrayList</className>
-			<!-- Instruments the method
+			<!-- Instruments the method clear() -->
+			<method>
+				<name>clear</name>
+				<parameters />
+				<!-- The para
