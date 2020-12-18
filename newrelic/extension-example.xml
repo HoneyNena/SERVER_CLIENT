@@ -16,4 +16,5 @@
 			<method>
 				<name>clear</name>
 				<parameters />
-				<!-- The para
+				<!-- The parameters node should be specified if there are no input parameters 
+					and you only 
