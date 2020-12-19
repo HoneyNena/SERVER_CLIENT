@@ -19,4 +19,7 @@
 				<!-- The parameters node should be specified if there are no input parameters 
 					and you only want to match clear(). Not specifying the parameters node will 
 					match all methods named clear on the class regardless of the input parameters. 
-					In other words it would match clear(int) cle
+					In other words it would match clear(int) clear(long) clear(int, long). -->
+			</method>
+			<!-- Instruments the method Object get(int index) -->
+		
