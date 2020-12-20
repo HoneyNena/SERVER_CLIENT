@@ -22,4 +22,7 @@
 					In other words it would match clear(int) clear(long) clear(int, long). -->
 			</method>
 			<!-- Instruments the method Object get(int index) -->
-		
+			<method>
+				<name>get</name>
+				<parameters>
+					<!-- Primitives should written using the
