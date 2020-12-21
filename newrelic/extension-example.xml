@@ -25,4 +25,7 @@
 			<method>
 				<name>get</name>
 				<parameters>
-					<!-- Primitives should written using the
+					<!-- Primitives should written using their name: byte, short, int, long, 
+						float, double, boolean, char -->
+					<type>int</type>
+				</
