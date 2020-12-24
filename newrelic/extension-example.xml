@@ -28,4 +28,6 @@
 					<!-- Primitives should written using their name: byte, short, int, long, 
 						float, double, boolean, char -->
 					<type>int</type>
-				</
+				</parameters>
+			</method>
+			<!-- Instruments the method boolean addAll(int index, Collection c)
