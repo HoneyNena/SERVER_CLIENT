@@ -34,4 +34,8 @@
 			<method>
 				<name>addAll</name>
 				<parameters>
-					<!-- Make sure your parameters are listed i
+					<!-- Make sure your parameters are listed in order. -->
+					<type>int</type>
+					<type>java.util.Collection</type>
+				</parameters>
+			</meth
