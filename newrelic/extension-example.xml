@@ -30,4 +30,8 @@
 					<type>int</type>
 				</parameters>
 			</method>
-			<!-- Instruments the method boolean addAll(int index, Collection c)
+			<!-- Instruments the method boolean addAll(int index, Collection c) -->
+			<method>
+				<name>addAll</name>
+				<parameters>
+					<!-- Make sure your parameters are listed i
