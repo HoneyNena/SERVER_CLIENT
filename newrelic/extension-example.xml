@@ -41,4 +41,7 @@
 			</method>
 		</pointcut>
 
-		<!-- This point cut instruments some of the methods in the class com.sample.SampleString. -
+		<!-- This point cut instruments some of the methods in the class com.sample.SampleString. -->
+		<pointcut transactionStartPoint="true">
+			<className>com.sample.SampleString</className>
+			<!-- Inst
