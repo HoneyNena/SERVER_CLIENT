@@ -44,4 +44,6 @@
 		<!-- This point cut instruments some of the methods in the class com.sample.SampleString. -->
 		<pointcut transactionStartPoint="true">
 			<className>com.sample.SampleString</className>
-			<!-- Inst
+			<!-- Instruments the method boolean startsWith(String prefix) -->
+			<method>
+				<name>startsWith<
