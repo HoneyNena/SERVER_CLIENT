@@ -51,4 +51,6 @@
 					<type>java.lang.String</type>
 				</parameters>
 			</method>
-			<!-- Instrumen
+			<!-- Instruments the method String valueOf(char[] data, int offset, int 
+				count) -->
+			<m
