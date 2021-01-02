@@ -56,4 +56,9 @@
 			<method>
 				<name>valueOf</name>
 				<parameters>
-					<!-- Be sure to use brackets for arrays. 
+					<!-- Be sure to use brackets for arrays. -->
+					<type>char[]</type>
+					<type>int</type>
+					<type>int</type>
+				</parameters>
+	
