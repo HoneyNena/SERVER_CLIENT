@@ -53,4 +53,7 @@
 			</method>
 			<!-- Instruments the method String valueOf(char[] data, int offset, int 
 				count) -->
-			<m
+			<method>
+				<name>valueOf</name>
+				<parameters>
+					<!-- Be sure to use brackets for arrays. 
