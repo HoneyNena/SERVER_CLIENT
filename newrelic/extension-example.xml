@@ -61,4 +61,8 @@
 					<type>int</type>
 					<type>int</type>
 				</parameters>
-	
+			</method>
+		</pointcut>
+
+
+		<!-- This point cut instruments all of the methods in the class com.s
