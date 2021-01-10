@@ -65,4 +65,6 @@
 		</pointcut>
 
 
-		<!-- This point cut instruments all of the methods in the class com.s
+		<!-- This point cut instruments all of the methods in the class com.sample.SampleString 
+			that are named startsWith, ignoring the input parameters and return type. -->
+		<po
