@@ -76,4 +76,5 @@
 
 
 		<!-- This point cut instruments the method startsWith in the class com.sample.SampleString. 
-			By adding the <nameTransaction/> e
+			By adding the <nameTransaction/> element, the class and method specified 
+			in this pointcut will be used to name transactions whic
