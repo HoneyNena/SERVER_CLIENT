@@ -75,4 +75,5 @@
 		</pointcut>
 
 
-		<!-- This point cut instrume
+		<!-- This point cut instruments the method startsWith in the class com.sample.SampleString. 
+			By adding the <nameTransaction/> e
