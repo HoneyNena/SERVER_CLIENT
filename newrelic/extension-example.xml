@@ -78,4 +78,6 @@
 		<!-- This point cut instruments the method startsWith in the class com.sample.SampleString. 
 			By adding the <nameTransaction/> element, the class and method specified 
 			in this pointcut will be used to name transactions which hit this pointcut. 
-			Without this, the default convention is to name trans
+			Without this, the default convention is to name transctions with the class 
+			and method from the transaction start point. -->
+		<pointcut tran
