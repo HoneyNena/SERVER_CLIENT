@@ -80,4 +80,7 @@
 			in this pointcut will be used to name transactions which hit this pointcut. 
 			Without this, the default convention is to name transctions with the class 
 			and method from the transaction start point. -->
-		<pointcut tran
+		<pointcut transactionStartPoint="false">
+			<nameTransaction />
+			<className>com.sample.SampleString</className>
+			<!-
