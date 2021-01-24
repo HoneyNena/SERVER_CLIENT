@@ -92,4 +92,6 @@
 			</method>
 		</pointcut>
 
-		<!-- This point cut instruments the method startsWith(String prefi
+		<!-- This point cut instruments the method startsWith(String prefix) for 
+			all implementations of the interface com.sample.SampleStringInterface. -->
+		<pointcut transact
