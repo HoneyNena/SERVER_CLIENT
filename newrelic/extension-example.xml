@@ -83,4 +83,6 @@
 		<pointcut transactionStartPoint="false">
 			<nameTransaction />
 			<className>com.sample.SampleString</className>
-			<!-
+			<!-- Instruments the method boolean startsWith(String prefix) -->
+			<method>
+				<name>startsWith</name
