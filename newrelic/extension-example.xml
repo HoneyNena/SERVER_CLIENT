@@ -94,4 +94,6 @@
 
 		<!-- This point cut instruments the method startsWith(String prefix) for 
 			all implementations of the interface com.sample.SampleStringInterface. -->
-		<pointcut transact
+		<pointcut transactionStartPoint="true">
+			<interfaceName>com.sample.SampleStringInterface</interfaceName>
+		
