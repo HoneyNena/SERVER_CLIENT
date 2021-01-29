@@ -99,4 +99,10 @@
 			<!-- Instruments the method boolean startsWith(String prefix) -->
 			<method>
 				<name>startsWith</name>
-			
+				<parameters>
+					<type>java.lang.String</type>
+				</parameters>
+			</method>
+		</pointcut>
+
+		<!-- T
