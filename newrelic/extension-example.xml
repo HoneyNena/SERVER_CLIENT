@@ -96,4 +96,7 @@
 			all implementations of the interface com.sample.SampleStringInterface. -->
 		<pointcut transactionStartPoint="true">
 			<interfaceName>com.sample.SampleStringInterface</interfaceName>
-		
+			<!-- Instruments the method boolean startsWith(String prefix) -->
+			<method>
+				<name>startsWith</name>
+			
