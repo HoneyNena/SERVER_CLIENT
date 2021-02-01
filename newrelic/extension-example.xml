@@ -105,4 +105,5 @@
 			</method>
 		</pointcut>
 
-		<!-- T
+		<!-- This point cut instruments some of the methods in the class com.sample.SampleString 
+			base
