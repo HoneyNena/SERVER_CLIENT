@@ -106,4 +106,6 @@
 		</pointcut>
 
 		<!-- This point cut instruments some of the methods in the class com.sample.SampleString 
-			base
+			based on return type. -->
+		<pointcut transactionStartPoint="true">
+			<className>com.samp
