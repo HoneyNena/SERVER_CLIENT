@@ -109,4 +109,8 @@
 			based on return type. -->
 		<pointcut transactionStartPoint="true">
 			<className>com.sample.SampleString</className>
-			<!-- Instruments all methods in the class whose return type is R
+			<!-- Instruments all methods in the class whose return type is ResultSet -->
+			<method>
+				<returnType>com.example.ResultSet</returnType>
+			</method>
+		</p
