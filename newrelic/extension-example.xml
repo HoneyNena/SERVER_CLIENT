@@ -108,4 +108,5 @@
 		<!-- This point cut instruments some of the methods in the class com.sample.SampleString 
 			based on return type. -->
 		<pointcut transactionStartPoint="true">
-			<className>com.samp
+			<className>com.sample.SampleString</className>
+			<!-- Instruments all methods in the class whose return type is R
