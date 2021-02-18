@@ -116,4 +116,6 @@
 		</pointcut>
 
 		<!-- This point cut instruments all of the methods which have the annotation 
-			com
+			com.example.myAnnotation. -->
+		<pointcut transactionStartPoint="true">
+			<methodAnnotation>com.example.my
