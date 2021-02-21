@@ -118,4 +118,8 @@
 		<!-- This point cut instruments all of the methods which have the annotation 
 			com.example.myAnnotation. -->
 		<pointcut transactionStartPoint="true">
-			<methodAnnotation>com.example.my
+			<methodAnnotation>com.example.myAnnotation</methodAnnotation>
+		</pointcut>
+
+	</instrumentation>
+</extension>
