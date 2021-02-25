@@ -6,4 +6,7 @@
     <xs:annotation>
       <xs:appinfo>
         <jaxb:schemaBindings>
-          <jaxb:package name="com.newre
+          <jaxb:package name="com.newrelic.agent.extension.beans"/>
+        </jaxb:schemaBindings>
+      </xs:appinfo>
+    </xs:ann
