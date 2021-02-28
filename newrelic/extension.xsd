@@ -9,4 +9,8 @@
           <jaxb:package name="com.newrelic.agent.extension.beans"/>
         </jaxb:schemaBindings>
       </xs:appinfo>
-    </xs:ann
+    </xs:annotation>
+
+    <xs:element name="extension">
+        <xs:annotation>
+            <xs:documentati
