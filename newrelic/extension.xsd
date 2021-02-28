@@ -13,4 +13,6 @@
 
     <xs:element name="extension">
         <xs:annotation>
-            <xs:documentati
+            <xs:documentation>
+                An extension allows users to extend the built-in
+                monitoring
