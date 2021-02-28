@@ -16,4 +16,6 @@
             <xs:documentation>
                 An extension allows users to extend the built-in
                 monitoring capabilities of the New Relic Java agent
-                to monitor new frameworks without 
+                to monitor new frameworks without modifying the framework source code.
+            </xs:documentation>
+        </xs:anno
