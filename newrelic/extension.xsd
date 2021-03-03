@@ -26,4 +26,5 @@
                         <xs:sequence>
                             <xs:element name="pointcut" minOccurs="0" maxOccurs="unbounded">
                                 <xs:annotation>
-                        
+                                    <xs:documentation>
+                                        Pointcuts are used to 
