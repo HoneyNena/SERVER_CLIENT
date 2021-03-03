@@ -24,4 +24,6 @@
                 <xs:element name="instrumentation" minOccurs="0" maxOccurs="1">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="pointcut" minOccurs="0"
+                            <xs:element name="pointcut" minOccurs="0" maxOccurs="unbounded">
+                                <xs:annotation>
+                        
