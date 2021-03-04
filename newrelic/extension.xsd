@@ -27,4 +27,5 @@
                             <xs:element name="pointcut" minOccurs="0" maxOccurs="unbounded">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Pointcuts are used to 
+                                        Pointcuts are used to inject timing measures into 
+                                        Java methods to add addition
