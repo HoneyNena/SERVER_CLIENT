@@ -28,4 +28,6 @@
                                 <xs:annotation>
                                     <xs:documentation>
                                         Pointcuts are used to inject timing measures into 
-                                        Java methods to add addition
+                                        Java methods to add additional detail to transaction breakdowns.
+                                    </xs:documentation>
+                      
