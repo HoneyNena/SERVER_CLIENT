@@ -33,4 +33,6 @@
                                 </xs:annotation>
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element nam
+                                        <xs:element name="nameTransaction" minOccurs="0">
+                                            <xs:annotation>
+     
