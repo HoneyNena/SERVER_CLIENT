@@ -36,4 +36,4 @@
                                         <xs:element name="nameTransaction" minOccurs="0">
                                             <xs:annotation>
                                                 <xs:documentation>
-                                        
+                                                    If this element is present, the agent will name the transaction using the method(s) in
