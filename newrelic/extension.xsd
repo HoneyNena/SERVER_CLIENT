@@ -37,4 +37,6 @@
                                             <xs:annotation>
                                                 <xs:documentation>
                                                     If this element is present, the agent will name the transaction using the method(s) instrumented by this pointcut. 
-                                                </xs:document
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                  
