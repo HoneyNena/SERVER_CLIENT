@@ -41,4 +41,5 @@
                                             </xs:annotation>
                                             <xs:complexType/>
                                         </xs:element>
-               
+                                        <xs:choice>
+                                            <xs:element name="methodAnnot
