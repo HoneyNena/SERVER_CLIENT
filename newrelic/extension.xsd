@@ -44,4 +44,5 @@
                                         <xs:choice>
                                             <xs:element name="methodAnnotation" type="xs:string">
                                                 <xs:annotation>
-                   
+                                                    <xs:documentation>
+                                                  
