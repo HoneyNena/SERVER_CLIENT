@@ -45,4 +45,4 @@
                                             <xs:element name="methodAnnotation" type="xs:string">
                                                 <xs:annotation>
                                                     <xs:documentation>
-                                                  
+                                                        The full name of an annotation class including the package name.  All methods that a
