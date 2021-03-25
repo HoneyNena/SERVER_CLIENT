@@ -46,4 +46,6 @@
                                                 <xs:annotation>
                                                     <xs:documentation>
                                                         The full name of an annotation class including the package name.  All methods that are marked with this annotation will be matched. 
-                                            
+                                                    </xs:documentation>
+                                                </xs:annotation>
+        
