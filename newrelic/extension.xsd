@@ -52,4 +52,5 @@
                                             <xs:sequence>
                                                 <xs:choice minOccurs="1" maxOccurs="1">
                                                     <xs:element name="className">
-           
+                                                        <xs:annotation>
+                               
