@@ -56,4 +56,5 @@
                                                             <xs:documentation>
                                                                 The case sensitive name of the class to match including the package name.
                                                             </xs:documentation>
-                                            
+                                                        </xs:annotation>
+                                                        <xs:complex
