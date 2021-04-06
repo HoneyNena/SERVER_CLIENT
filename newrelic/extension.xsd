@@ -59,4 +59,5 @@
                                                         </xs:annotation>
                                                         <xs:complexType>
                                                             <xs:simpleContent>
-         
+                                                                <xs:extension base="xs:string">
+        
