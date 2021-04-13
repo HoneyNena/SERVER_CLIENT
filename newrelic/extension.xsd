@@ -63,4 +63,5 @@
                                                                     <xs:attribute default="false" name="includeSubclasses" type="xs:boolean">
                                                                         <xs:annotation>
                                                                             <xs:documentation>
-                                                       
+                                                                                If false, this works as an exact class matcher.  If true, the
+     
