@@ -64,4 +64,4 @@
                                                                         <xs:annotation>
                                                                             <xs:documentation>
                                                                                 If false, this works as an exact class matcher.  If true, the
-     
+                                                                                methods on the class with 
