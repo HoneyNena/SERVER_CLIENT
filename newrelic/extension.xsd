@@ -65,4 +65,5 @@
                                                                             <xs:documentation>
                                                                                 If false, this works as an exact class matcher.  If true, the
                                                                                 methods on the class with the matching name will be matched along 
-                                                        
+                                                                                with the matching methods on any child class of the class.
+                
