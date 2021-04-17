@@ -68,4 +68,5 @@
                                                                                 with the matching methods on any child class of the class.
                                                                             </xs:documentation>
                                                                         </xs:annotation>
+                                                                    </xs:attribute>
              
