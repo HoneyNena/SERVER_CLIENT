@@ -70,4 +70,5 @@
                                                                         </xs:annotation>
                                                                     </xs:attribute>
                                                                 </xs:extension>
-                             
+                                                            </xs:simpleContent>
+                                               
