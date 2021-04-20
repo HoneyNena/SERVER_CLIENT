@@ -75,4 +75,5 @@
                                                     </xs:element>
                                                     <xs:element name="interfaceName" type="xs:string">
                                                         <xs:annotation>
-                         
+                                                            <xs:documentation>
+                                        
