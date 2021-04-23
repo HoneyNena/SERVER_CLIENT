@@ -76,4 +76,6 @@
                                                     <xs:element name="interfaceName" type="xs:string">
                                                         <xs:annotation>
                                                             <xs:documentation>
-                                                                The case sensitive name of an interface whose implementation classes wil
+                                                                The case sensitive name of an interface whose implementation classes will be matched.
+                                                            </xs:documentation>
+       
