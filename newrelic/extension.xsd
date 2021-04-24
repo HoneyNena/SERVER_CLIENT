@@ -79,4 +79,6 @@
                                                                 The case sensitive name of an interface whose implementation classes will be matched.
                                                             </xs:documentation>
                                                         </xs:annotation>
-                              
+                                                    </xs:element>
+                                                </xs:choice>
+     
