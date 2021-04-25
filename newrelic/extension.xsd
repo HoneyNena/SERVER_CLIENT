@@ -83,4 +83,5 @@
                                                 </xs:choice>
                                                 <xs:element name="method" minOccurs="1" maxOccurs="unbounded">
                                                     <xs:complexType>
-                         
+                                                        <xs:choice minOccurs="1">
+                                         
