@@ -87,4 +87,5 @@
                                                             <xs:element name="returnType" type="xs:string" minOccurs="0">
                                                                 <xs:annotation>
                                                                     <xs:documentation>
-                                                                        The case sensitive name of a class indicating a 
+                                                                        The case sensitive name of a class indicating a return type to match.  All methods that return this class type will be matched.
+                   
