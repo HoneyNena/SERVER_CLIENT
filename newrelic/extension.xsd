@@ -90,4 +90,6 @@
                                                                         The case sensitive name of a class indicating a return type to match.  All methods that return this class type will be matched.
                                                                     </xs:documentation>
                                                                 </xs:annotation>
-                                                            </xs:ele
+                                                            </xs:element>
+                                                            <xs:sequence>
+                  
