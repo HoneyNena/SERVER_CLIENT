@@ -92,4 +92,4 @@
                                                                 </xs:annotation>
                                                             </xs:element>
                                                             <xs:sequence>
-                  
+                                                                <xs:element name="name" type="xs:string" 
