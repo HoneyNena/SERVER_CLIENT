@@ -96,4 +96,6 @@
                                                                     nillable="false">
                                                                     <xs:annotation>
                                                                         <xs:documentation>
-                                                                            The exact case sensitive name of 
+                                                                            The exact case sensitive name of the method to
+                                                                            match.
+              
