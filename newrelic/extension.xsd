@@ -95,4 +95,5 @@
                                                                 <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"
                                                                     nillable="false">
                                                                     <xs:annotation>
-        
+                                                                        <xs:documentation>
+              
