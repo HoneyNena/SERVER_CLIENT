@@ -98,4 +98,5 @@
                                                                         <xs:documentation>
                                                                             The exact case sensitive name of the method to
                                                                             match.
-              
+                                                                        </xs:documentation>
+                         
