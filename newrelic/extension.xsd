@@ -110,4 +110,6 @@
                                                                             and protected declarations.
                                                                         </xs:documentation>
                                                                     </xs:annotation>
-                                                                    
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+    
