@@ -109,4 +109,5 @@
                                                                             matching the name will be matched including private
                                                                             and protected declarations.
                                                                         </xs:documentation>
-                                                          
+                                                                    </xs:annotation>
+                                                                    
