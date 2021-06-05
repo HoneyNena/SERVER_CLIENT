@@ -108,4 +108,5 @@
                                                                             If the parameters element is left off all methods 
                                                                             matching the name will be matched including private
                                                                             and protected declarations.
-                                                              
+                                                                        </xs:documentation>
+                                                          
