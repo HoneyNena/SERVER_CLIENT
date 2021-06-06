@@ -112,4 +112,5 @@
                                                                     </xs:annotation>
                                                                     <xs:complexType>
                                                                         <xs:sequence>
-                                                                            <xs:element name="type" t
+                                                                            <xs:element name="type" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+                                      
