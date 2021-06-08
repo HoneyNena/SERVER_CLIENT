@@ -115,4 +115,5 @@
                                                                             <xs:element name="type" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                                                                                 <xs:annotation>
                                                                                     <xs:documentation>
-                                                                                        A parameter type.  This is either a case sensitive clas
+                                                                                        A parameter type.  This is either a case sensitive class name
+                                                                                        i
