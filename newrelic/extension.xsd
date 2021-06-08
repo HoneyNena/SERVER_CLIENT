@@ -116,4 +116,5 @@
                                                                                 <xs:annotation>
                                                                                     <xs:documentation>
                                                                                         A parameter type.  This is either a case sensitive class name
-                                                                                        i
+                                                                                        including the package name or a primitive 
+                                                                      
