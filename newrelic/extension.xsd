@@ -118,4 +118,5 @@
                                                                                         A parameter type.  This is either a case sensitive class name
                                                                                         including the package name or a primitive 
                                                                                         type (boolean, char, int, float, double, etc).
-                              
+                                                                                    </xs:documentation>
+                
