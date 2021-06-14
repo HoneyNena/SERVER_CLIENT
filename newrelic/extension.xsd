@@ -120,4 +120,5 @@
                                                                                         type (boolean, char, int, float, double, etc).
                                                                                     </xs:documentation>
                                                                                 </xs:annotation>
-                  
+                                                                            </xs:element>
+                               
