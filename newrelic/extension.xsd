@@ -119,4 +119,5 @@
                                                                                         including the package name or a primitive 
                                                                                         type (boolean, char, int, float, double, etc).
                                                                                     </xs:documentation>
-                
+                                                                                </xs:annotation>
+                  
