@@ -129,4 +129,6 @@
                                                         
                                                     </xs:complexType>
                                                 </xs:element>
-                        
+                                            </xs:sequence>
+                                        </xs:choice>
+    
