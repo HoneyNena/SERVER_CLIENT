@@ -133,4 +133,6 @@
                                         </xs:choice>
                                     </xs:sequence>
                         
-                                    <xs:attribute name="transactionStartPoint" type="xs:boolean" default="
+                                    <xs:attribute name="transactionStartPoint" type="xs:boolean" default="false">
+                                        <xs:annotation>
+                              
