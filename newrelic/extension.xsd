@@ -135,4 +135,5 @@
                         
                                     <xs:attribute name="transactionStartPoint" type="xs:boolean" default="false">
                                         <xs:annotation>
-                              
+                                            <xs:documentation>
+                                                If a 
