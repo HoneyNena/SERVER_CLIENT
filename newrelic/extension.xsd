@@ -141,4 +141,6 @@
                                                 If a transaction is already in progress, then that
                                                 transaction will continue. A new transaction will not
                                                 be created.
-                   
+                                            </xs:documentation>
+                                        </xs:annotation>
+              
