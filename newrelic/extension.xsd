@@ -143,4 +143,5 @@
                                                 be created.
                                             </xs:documentation>
                                         </xs:annotation>
-              
+                                    </xs:attribute>
+                                    <xs:attribute name="metricNameFormat
