@@ -144,4 +144,6 @@
                                             </xs:documentation>
                                         </xs:annotation>
                                     </xs:attribute>
-                                    <xs:attribute name="metricNameFormat
+                                    <xs:attribute name="metricNameFormat" type="xs:string">
+                                        <xs:annotation>
+ 
