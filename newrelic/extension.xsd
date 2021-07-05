@@ -148,4 +148,4 @@
                                         <xs:annotation>
                                             <xs:documentation>
                                                 The name of the metric to be generated for this pointcut. If not
-         
+                                                present, the default is the concatenation of the m
