@@ -152,4 +152,6 @@
                                             </xs:documentation>
                                         </xs:annotation>
                                     </xs:attribute>
-                                    <xs:attribute name="excludeFromTransactionTrac
+                                    <xs:attribute name="excludeFromTransactionTrace" type="xs:boolean" default="false">
+                                        <xs:annotation>
+   
