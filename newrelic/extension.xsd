@@ -149,4 +149,6 @@
                                             <xs:documentation>
                                                 The name of the metric to be generated for this pointcut. If not
                                                 present, the default is the concatenation of the metric prefix, the class name and the method name.
-                                            </xs:documentation
+                                            </xs:documentation>
+                                        </xs:annotation>
+                                    
