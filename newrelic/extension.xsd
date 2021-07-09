@@ -151,4 +151,5 @@
                                                 present, the default is the concatenation of the metric prefix, the class name and the method name.
                                             </xs:documentation>
                                         </xs:annotation>
-                                    
+                                    </xs:attribute>
+                                    <xs:attribute name="excludeFromTransactionTrac
