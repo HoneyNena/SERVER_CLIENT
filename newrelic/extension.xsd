@@ -156,4 +156,5 @@
                                         <xs:annotation>
                                             <xs:documentation>
                                                 When true the transaction trace will not be provided if this point cut initiates the transaction.
-                                                If this point cut is reached in the middle of a tr
+                                                If this point cut is reached in the middle of a transaction, then the transaction
+                                             
