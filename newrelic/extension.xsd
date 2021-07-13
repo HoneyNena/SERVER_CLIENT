@@ -155,4 +155,5 @@
                                     <xs:attribute name="excludeFromTransactionTrace" type="xs:boolean" default="false">
                                         <xs:annotation>
                                             <xs:documentation>
-                                        
+                                                When true the transaction trace will not be provided if this point cut initiates the transaction.
+        
