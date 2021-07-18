@@ -161,4 +161,5 @@
                                             </xs:documentation>
                                         </xs:annotation>
                                     </xs:attribute>
-                                  
+                                    <xs:attribute name="ignoreTransaction" type="xs:boolean" default="false">
+            
