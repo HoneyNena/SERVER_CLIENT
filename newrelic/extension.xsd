@@ -165,4 +165,6 @@
                                         <xs:annotation>
                                             <xs:documentation>
                                                 When true the entire transaction will be ignored regardless of how much of the transaction has completed.
-                                     
+                                            </xs:documentation>
+                                        </xs:annotation>
+                  
