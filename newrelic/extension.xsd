@@ -164,4 +164,5 @@
                                     <xs:attribute name="ignoreTransaction" type="xs:boolean" default="false">
                                         <xs:annotation>
                                             <xs:documentation>
-                                                When true the entire transaction will be ignored 
+                                                When true the entire transaction will be ignored regardless of how much of the transaction has completed.
+                                     
