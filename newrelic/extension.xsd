@@ -168,4 +168,5 @@
                                             </xs:documentation>
                                         </xs:annotation>
                                     </xs:attribute>
-                                    <xs:attribute name="t
+                                    <xs:attribute name="transactionType" default="background">
+                                        <xs:annotation
