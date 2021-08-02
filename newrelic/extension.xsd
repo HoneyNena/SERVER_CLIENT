@@ -171,4 +171,5 @@
                                     <xs:attribute name="transactionType" default="background">
                                         <xs:annotation>
                                             <xs:documentation>
-                                             
+                                                Sets the type of the transaction. Possible values are "web" and
+                                
