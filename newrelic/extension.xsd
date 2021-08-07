@@ -174,4 +174,5 @@
                                                 Sets the type of the transaction. Possible values are "web" and
                                                 "background", with "background" as the default.
 
-                                       
+                                                When set to "web" the transaction will be reported as a web transaction.
+                       
