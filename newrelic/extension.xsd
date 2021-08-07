@@ -172,4 +172,6 @@
                                         <xs:annotation>
                                             <xs:documentation>
                                                 Sets the type of the transaction. Possible values are "web" and
-                                
+                                                "background", with "background" as the default.
+
+                                       
