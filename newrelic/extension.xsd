@@ -175,4 +175,5 @@
                                                 "background", with "background" as the default.
 
                                                 When set to "web" the transaction will be reported as a web transaction.
-                       
+                                            </xs:documentation>
+                                
