@@ -179,4 +179,5 @@
                                         </xs:annotation>
                                         <xs:simpleType>
                                             <xs:restriction base="xs:string">
-                                                <xs:enu
+                                                <xs:enumeration value="background"/>
+                                                <x
