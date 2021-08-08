@@ -178,4 +178,5 @@
                                             </xs:documentation>
                                         </xs:annotation>
                                         <xs:simpleType>
-                             
+                                            <xs:restriction base="xs:string">
+                                                <xs:enu
