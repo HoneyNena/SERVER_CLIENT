@@ -180,4 +180,6 @@
                                         <xs:simpleType>
                                             <xs:restriction base="xs:string">
                                                 <xs:enumeration value="background"/>
-                                                <x
+                                                <xs:enumeration value="web"/>
+                                            </xs:restriction>
+                    
