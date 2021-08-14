@@ -182,4 +182,6 @@
                                                 <xs:enumeration value="background"/>
                                                 <xs:enumeration value="web"/>
                                             </xs:restriction>
-                    
+                                        </xs:simpleType>
+                                    </xs:attribute>
+           
