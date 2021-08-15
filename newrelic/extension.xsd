@@ -188,4 +188,6 @@
                             </xs:element>
                         </xs:sequence>
                         <xs:attribute name="metricPrefix" type="xs:string">
-                            <xs:anno
+                            <xs:annotation>
+                                <xs:documentation>
+                           
