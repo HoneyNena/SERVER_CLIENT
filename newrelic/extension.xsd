@@ -190,4 +190,5 @@
                         <xs:attribute name="metricPrefix" type="xs:string">
                             <xs:annotation>
                                 <xs:documentation>
-                           
+                                    The prefix used in metric names (when metricNameFormat is not specified).  Defaults to 'Custom'.
+   
