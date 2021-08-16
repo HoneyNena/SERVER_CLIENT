@@ -193,4 +193,7 @@
                                     The prefix used in metric names (when metricNameFormat is not specified).  Defaults to 'Custom'.
                                 </xs:documentation>
                             </xs:annotation>
-         
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+     
