@@ -196,4 +196,6 @@
                         </xs:attribute>
                     </xs:complexType>
                 </xs:element>
-     
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string">
+                <
