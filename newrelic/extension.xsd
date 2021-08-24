@@ -200,4 +200,7 @@
             <xs:attribute name="name" type="xs:string">
                 <xs:annotation>
                     <xs:documentation>
-                        The descriptive name of this ex
+                        The descriptive name of this extension.
+                    </xs:documentation>
+                </xs:annotation>
+     
