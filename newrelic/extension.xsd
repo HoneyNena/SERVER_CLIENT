@@ -204,4 +204,7 @@
                     </xs:documentation>
                 </xs:annotation>
             </xs:attribute>
-            <xs:attribute name="enabled" type="xs:boo
+            <xs:attribute name="enabled" type="xs:boolean" default="true">
+                <xs:annotation>
+                    <xs:documentation>
+     
