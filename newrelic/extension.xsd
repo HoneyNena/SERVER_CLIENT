@@ -203,4 +203,5 @@
                         The descriptive name of this extension.
                     </xs:documentation>
                 </xs:annotation>
-     
+            </xs:attribute>
+            <xs:attribute name="enabled" type="xs:boo
