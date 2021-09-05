@@ -211,4 +211,6 @@
                     </xs:documentation>
                 </xs:annotation>
             </xs:attribute>
-            <xs:attribute name="version" ty
+            <xs:attribute name="version" type="xs:double" default="1.0">
+                <xs:annotation>
+                    <xs:documenta
