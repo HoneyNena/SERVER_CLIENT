@@ -209,4 +209,6 @@
                     <xs:documentation>
                         Enables and disables this extension.
                     </xs:documentation>
-         
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="version" ty
