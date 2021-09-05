@@ -213,4 +213,5 @@
             </xs:attribute>
             <xs:attribute name="version" type="xs:double" default="1.0">
                 <xs:annotation>
-                    <xs:documenta
+                    <xs:documentation>
+                        The extension version.  If the agent finds multiple extensio
