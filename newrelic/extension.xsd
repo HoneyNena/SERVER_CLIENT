@@ -216,3 +216,7 @@
                     <xs:documentation>
                         The extension version.  If the agent finds multiple extensions with the same name it will load the one with the highest version number.
                     </xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:el
