@@ -219,4 +219,6 @@
                 </xs:annotation>
             </xs:attribute>
         </xs:complexType>
-    </xs:el
+    </xs:element>
+
+</xs:schema>
