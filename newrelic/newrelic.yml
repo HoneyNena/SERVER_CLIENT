@@ -4,4 +4,6 @@
 #
 # <%= generated_for_user %>
 #
-# This section
+# This section is for settings common to all environments.
+# Do not add anything above this next line.
+common: &default
