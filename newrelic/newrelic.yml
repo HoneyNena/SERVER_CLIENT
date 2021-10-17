@@ -6,4 +6,7 @@
 #
 # This section is for settings common to all environments.
 # Do not add anything above this next line.
-common: &default
+common: &default_settings
+
+  # ============================== LICENSE KEY ===============================
+  # You mu
