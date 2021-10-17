@@ -9,4 +9,5 @@
 common: &default_settings
 
   # ============================== LICENSE KEY ===============================
-  # You mu
+  # You must specify the license key associated with your New Relic
+  # account. For example, if your lice
