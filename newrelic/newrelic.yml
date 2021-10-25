@@ -16,4 +16,6 @@ common: &default_settings
   license_key: '<%= license_key %>'
 
   # Agent Enabled
-  # Use this se
+  # Use this setting to disable the agent instead of removing it from the startup command.
+  # Default is true.
+  agent
