@@ -12,4 +12,8 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account. For example, if your license key is 12345 use this:
   # license_key: '12345'
-  # The key binds your Agent's data to your account 
+  # The key binds your Agent's data to your account in the New Relic service.
+  license_key: '<%= license_key %>'
+
+  # Agent Enabled
+  # Use this se
