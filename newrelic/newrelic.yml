@@ -18,4 +18,6 @@ common: &default_settings
   # Agent Enabled
   # Use this setting to disable the agent instead of removing it from the startup command.
   # Default is true.
-  agent
+  agent_enabled: true
+
+  # Set the name of your application as you'd like it show up in New Re
