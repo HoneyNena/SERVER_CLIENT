@@ -20,4 +20,5 @@ common: &default_settings
   # Default is true.
   agent_enabled: true
 
-  # Set the name of your application as you'd like it show up in New Re
+  # Set the name of your application as you'd like it show up in New Relic.
+  # If enable_auto_app_naming is false, the agent reports all data to this application.
