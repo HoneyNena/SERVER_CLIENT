@@ -23,4 +23,5 @@ common: &default_settings
   # Set the name of your application as you'd like it show up in New Relic.
   # If enable_auto_app_naming is false, the agent reports all data to this application.
   # Otherwise, the agent reports only background tasks (transactions for non-web applications)
-  # to 
+  # to this application. To report data to more than one application 
+  # (useful for rollup report
