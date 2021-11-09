@@ -25,4 +25,6 @@ common: &default_settings
   # Otherwise, the agent reports only background tasks (transactions for non-web applications)
   # to this application. To report data to more than one application 
   # (useful for rollup reporting), separate the application names with ";".
-  # For example, to report data to "My Application" and "My Appli
+  # For example, to report data to "My Application" and "My Application 2" use this:
+  # app_name: My Application;My Application 2
+  # This setting is required
