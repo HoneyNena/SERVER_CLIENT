@@ -24,4 +24,5 @@ common: &default_settings
   # If enable_auto_app_naming is false, the agent reports all data to this application.
   # Otherwise, the agent reports only background tasks (transactions for non-web applications)
   # to this application. To report data to more than one application 
-  # (useful for rollup report
+  # (useful for rollup reporting), separate the application names with ";".
+  # For example, to report data to "My Application" and "My Appli
