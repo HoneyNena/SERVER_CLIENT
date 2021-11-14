@@ -28,4 +28,8 @@ common: &default_settings
   # For example, to report data to "My Application" and "My Application 2" use this:
   # app_name: My Application;My Application 2
   # This setting is required. Up to 3 different application names can be specified.
-  # The first application name must be uniqu
+  # The first application name must be unique.
+  app_name: My Application
+
+  # To enable high security, set this property to true. When in high
+  # 
