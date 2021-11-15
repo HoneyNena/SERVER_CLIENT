@@ -36,4 +36,6 @@ common: &default_settings
   # request parameters and message parameters will not be sent to New Relic.
   high_security: false
 
-  # Set to true to enable 
+  # Set to true to enable support for auto app naming.
+  # The name of each web app is detected automatically
+  # and 
