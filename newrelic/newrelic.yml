@@ -38,4 +38,6 @@ common: &default_settings
 
   # Set to true to enable support for auto app naming.
   # The name of each web app is detected automatically
-  # and 
+  # and the agent reports data separately for each one.
+  # This provides a finer-grained performance breakdown for
+  # 
