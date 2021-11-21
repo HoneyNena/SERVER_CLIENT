@@ -40,4 +40,8 @@ common: &default_settings
   # The name of each web app is detected automatically
   # and the agent reports data separately for each one.
   # This provides a finer-grained performance breakdown for
-  # 
+  # web apps in New Relic.
+  # Default is false.
+  enable_auto_app_naming: false
+
+  # Set to 
