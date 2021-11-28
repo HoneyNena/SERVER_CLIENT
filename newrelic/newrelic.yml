@@ -51,4 +51,5 @@ common: &default_settings
 
   # The agent uses its own log file to keep its logging
   # separate from that of your application.  Specify the log level here.
-  # This setting is dynamic, so changes do not require
+  # This setting is dynamic, so changes do not require restarting your application.
+  # The levels in increasing order of verboseness ar
