@@ -58,4 +58,8 @@ common: &default_settings
   log_level: info
 
   # Log all data sent to and from New Relic in plain text.
-  # This setting is dynamic, so changes do 
+  # This setting is dynamic, so changes do not require restarting your application.
+  # Default is false.
+  audit_mode: false
+
+  # The number of ba
