@@ -71,4 +71,10 @@ common: &default_settings
   # Default is 0 (no limit).
   log_limit_in_kbytes: 0
 
-  # Override other log rolling configuration and roll the l
+  # Override other log rolling configuration and roll the logs daily.
+  # Default is false.
+  log_daily: false
+
+  # The name of the log file.
+  # Default is newrelic_agent.log.
+  l
