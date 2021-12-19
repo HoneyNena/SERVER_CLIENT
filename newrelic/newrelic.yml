@@ -87,4 +87,7 @@ common: &default_settings
   # default.  If you want to communicate with newrelic via http,
   # then turn off SSL by setting this value to false.
   # This work is done asynchronously to the threads that process your
-  # appl
+  # application code, so response times will not be directly affected
+  # by this change.
+  # Default is true.
+  ss
