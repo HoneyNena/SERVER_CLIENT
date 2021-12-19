@@ -85,4 +85,6 @@ common: &default_settings
 
   # The agent communicates with New Relic via https by
   # default.  If you want to communicate with newrelic via http,
-  # then turn off SSL by setting this 
+  # then turn off SSL by setting this value to false.
+  # This work is done asynchronously to the threads that process your
+  # appl
