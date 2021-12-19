@@ -90,4 +90,7 @@ common: &default_settings
   # application code, so response times will not be directly affected
   # by this change.
   # Default is true.
-  ss
+  ssl: true
+
+  # Proxy settings for connecting to the New Relic server:
+  # If a proxy is used
