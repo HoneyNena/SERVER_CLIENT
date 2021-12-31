@@ -93,4 +93,5 @@ common: &default_settings
   ssl: true
 
   # Proxy settings for connecting to the New Relic server:
-  # If a proxy is used
+  # If a proxy is used, the host setting is required.  Other settings
+  # are optional.  Default port is 8080.  The username and pass
