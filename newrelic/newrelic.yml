@@ -104,3 +104,7 @@ common: &default_settings
 
   # Limits the number of lines to capture for each stack trace. 
   # Default is 30
+  max_stack_trace_lines: 30
+
+  # Provides the ability to configure the attributes sent to New Relic. These
+  # at
