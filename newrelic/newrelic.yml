@@ -107,4 +107,5 @@ common: &default_settings
   max_stack_trace_lines: 30
 
   # Provides the ability to configure the attributes sent to New Relic. These
-  # at
+  # attributes can be found in transaction traces, traced errors, Insight's 
+  # transaction events, and
