@@ -100,4 +100,7 @@ common: &default_settings
   #proxy_host: hostname
   #proxy_port: 8080
   #proxy_user: username
-  #proxy_password
+  #proxy_password: password
+
+  # Limits the number of lines to capture for each stack trace. 
+  # Default is 30
