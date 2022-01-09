@@ -114,4 +114,8 @@ common: &default_settings
     # When true, attributes will be sent to New Relic. The default is true.
     enabled: true
     
-    #A comma separated list of attribute keys whose
+    #A comma separated list of attribute keys whose values should 
+    # be sent to New Relic.
+    #include:
+    
+    # A comma separated list of attribute k
