@@ -118,4 +118,9 @@ common: &default_settings
     # be sent to New Relic.
     #include:
     
-    # A comma separated list of attribute k
+    # A comma separated list of attribute keys whose values should 
+    # not be sent to New Relic.
+    #exclude:
+    
+
+  # Transac
