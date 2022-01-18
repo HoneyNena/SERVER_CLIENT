@@ -129,4 +129,5 @@ common: &default_settings
   # the transactions including any SQL statements issued.
   transaction_tracer:
 
-    # Transaction tracer is enabl
+    # Transaction tracer is enabled by default. Set this to false to turn it off.
+    # This feature is not available to Lite
