@@ -130,4 +130,8 @@ common: &default_settings
   transaction_tracer:
 
     # Transaction tracer is enabled by default. Set this to false to turn it off.
-    # This feature is not available to Lite
+    # This feature is not available to Lite accounts and is automatically disabled.
+    # Default is true.
+    enabled: true
+
+    # Threshold 
