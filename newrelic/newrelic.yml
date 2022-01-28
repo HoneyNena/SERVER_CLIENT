@@ -134,4 +134,5 @@ common: &default_settings
     # Default is true.
     enabled: true
 
-    # Threshold 
+    # Threshold in seconds for when to collect a transaction
+    # trace. When the response time of a 
