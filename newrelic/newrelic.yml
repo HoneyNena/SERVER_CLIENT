@@ -138,4 +138,6 @@ common: &default_settings
     # trace. When the response time of a controller action exceeds
     # this threshold, a transaction trace will be recorded and sent to
     # New Relic. Valid values are any float value, or (default) "apdex_f",
-    # which will use th
+    # which will use the threshold for the "Frustrated" Apdex level
+    # (greater than four times the apdex_t value).
+    # D
