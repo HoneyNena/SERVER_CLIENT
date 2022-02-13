@@ -136,4 +136,6 @@ common: &default_settings
 
     # Threshold in seconds for when to collect a transaction
     # trace. When the response time of a controller action exceeds
-    # this threshold, a transaction trace will be recorded and sent 
+    # this threshold, a transaction trace will be recorded and sent to
+    # New Relic. Valid values are any float value, or (default) "apdex_f",
+    # which will use th
