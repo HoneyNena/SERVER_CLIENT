@@ -143,4 +143,5 @@ common: &default_settings
     # Default is apdex_f.
     transaction_threshold: apdex_f
 
-    # When transaction tracer 
+    # When transaction tracer is on, SQL statements can optionally be
+    # recorded. The recorder has three modes, "off" whic
