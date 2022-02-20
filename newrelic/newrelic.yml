@@ -144,4 +144,6 @@ common: &default_settings
     transaction_threshold: apdex_f
 
     # When transaction tracer is on, SQL statements can optionally be
-    # recorded. The recorder has three modes, "off" whic
+    # recorded. The recorder has three modes, "off" which sends no
+    # SQL, "raw" which sends the SQL statement in its original form,
+    # and "obfuscate
