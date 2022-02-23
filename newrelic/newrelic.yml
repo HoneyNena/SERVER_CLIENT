@@ -151,4 +151,8 @@ common: &default_settings
     record_sql: obfuscated
 
     # Set this to true to log SQL statements instead of recording them.
-    # SQ
+    # SQL is logged using the record_sql mode.
+    # Default is false.
+    log_sql: false
+
+    # Threshold
