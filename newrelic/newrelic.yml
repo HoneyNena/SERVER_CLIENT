@@ -155,4 +155,5 @@ common: &default_settings
     # Default is false.
     log_sql: false
 
-    # Threshold
+    # Threshold in seconds for when to collect stack trace for a SQL
+    # call. In other words, when SQL statements e
