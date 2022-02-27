@@ -157,4 +157,6 @@ common: &default_settings
 
     # Threshold in seconds for when to collect stack trace for a SQL
     # call. In other words, when SQL statements exceed this threshold,
-    # then capture and send to New Relic the current stack trace. This 
+    # then capture and send to New Relic the current stack trace. This is
+    # helpful for pinpointing where long SQL calls originate from.
+    # Default is 0.5 sec
