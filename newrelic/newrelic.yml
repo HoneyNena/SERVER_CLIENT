@@ -162,4 +162,7 @@ common: &default_settings
     # Default is 0.5 seconds.
     stack_trace_threshold: 0.5
 
-    # Determines whether the agent will capture query plans for s
+    # Determines whether the agent will capture query plans for slow
+    # SQL queries. Only supported for MySQL and PostgreSQL.
+    # Default is true.
+    explain_enabl
