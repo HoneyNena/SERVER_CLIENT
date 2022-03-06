@@ -168,4 +168,5 @@ common: &default_settings
     explain_enabled: true
 
     # Threshold for query execution time below which query plans will not 
-    # not be capt
+    # not be captured.  Relevant only when `explain_enabled` is true.
+    # Default is 0.5 seconds.
