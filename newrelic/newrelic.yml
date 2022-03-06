@@ -165,4 +165,7 @@ common: &default_settings
     # Determines whether the agent will capture query plans for slow
     # SQL queries. Only supported for MySQL and PostgreSQL.
     # Default is true.
-    explain_enabl
+    explain_enabled: true
+
+    # Threshold for query execution time below which query plans will not 
+    # not be capt
