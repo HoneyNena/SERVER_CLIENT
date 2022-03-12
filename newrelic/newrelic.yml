@@ -170,3 +170,7 @@ common: &default_settings
     # Threshold for query execution time below which query plans will not 
     # not be captured.  Relevant only when `explain_enabled` is true.
     # Default is 0.5 seconds.
+    explain_threshold: 0.5
+
+    # Use this setting to control the variety of transaction traces.
+    # The higher the se
