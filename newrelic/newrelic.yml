@@ -173,4 +173,6 @@ common: &default_settings
     explain_threshold: 0.5
 
     # Use this setting to control the variety of transaction traces.
-    # The higher the se
+    # The higher the setting, the greater the variety.
+    # Set this to 0 to always report the slowest transaction trace.
+  
