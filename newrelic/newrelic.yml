@@ -175,4 +175,7 @@ common: &default_settings
     # Use this setting to control the variety of transaction traces.
     # The higher the setting, the greater the variety.
     # Set this to 0 to always report the slowest transaction trace.
-  
+    # Default is 20.
+    top_n: 20
+
+  # Error collector captures information about uncaught exceptions and
