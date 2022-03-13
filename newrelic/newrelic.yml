@@ -179,3 +179,7 @@ common: &default_settings
     top_n: 20
 
   # Error collector captures information about uncaught exceptions and
+  # sends them to New Relic for viewing.
+  error_collector:
+
+    # This property enables the collection of errors. If 
