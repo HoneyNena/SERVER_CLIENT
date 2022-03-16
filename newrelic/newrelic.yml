@@ -182,4 +182,6 @@ common: &default_settings
   # sends them to New Relic for viewing.
   error_collector:
 
-    # This property enables the collection of errors. If 
+    # This property enables the collection of errors. If the property is not
+    # set or the property is set to false, then errors will not be collected.
+    # De
