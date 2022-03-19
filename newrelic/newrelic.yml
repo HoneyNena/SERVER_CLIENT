@@ -184,4 +184,7 @@ common: &default_settings
 
     # This property enables the collection of errors. If the property is not
     # set or the property is set to false, then errors will not be collected.
-    # De
+    # Default is true.
+    enabled: true
+
+    # Use this property to exclude specific exceptions from being 
