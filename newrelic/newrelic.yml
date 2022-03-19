@@ -187,4 +187,6 @@ common: &default_settings
     # Default is true.
     enabled: true
 
-    # Use this property to exclude specific exceptions from being 
+    # Use this property to exclude specific exceptions from being reported as errors
+    # by providing a comma separated list of full class names.
+    # The default is to excl
