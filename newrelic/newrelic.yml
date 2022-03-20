@@ -189,4 +189,5 @@ common: &default_settings
 
     # Use this property to exclude specific exceptions from being reported as errors
     # by providing a comma separated list of full class names.
-    # The default is to excl
+    # The default is to exclude akka.actor.ActorKilledException. If you want to override
+    # this, you must provide any new value 
