@@ -193,4 +193,5 @@ common: &default_settings
     # this, you must provide any new value as an empty list is ignored.
     ignore_errors: akka.actor.ActorKilledException
 
-    
+    # Use this property to exclude specific http status codes from being reported as errors
+    # by
