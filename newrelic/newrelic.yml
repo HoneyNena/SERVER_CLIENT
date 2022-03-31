@@ -195,4 +195,6 @@ common: &default_settings
 
     # Use this property to exclude specific http status codes from being reported as errors
     # by providing a comma separated list of status codes.
-    # The default is to exclude 404s. If you want 
+    # The default is to exclude 404s. If you want to override
+    # this, you must provide any new value as an empty list is ignored.
+    igno
