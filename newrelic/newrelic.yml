@@ -203,4 +203,8 @@ common: &default_settings
   # for each web transaction and sent to the server on harvest. 
   transaction_events:
 
-    # Se
+    # Set to false to disable transaction events.
+    # Default is true.
+    enabled: true
+
+    # Events are collected up
