@@ -208,4 +208,6 @@ common: &default_settings
     enabled: true
 
     # Events are collected up to the configured amount. Afterwards, events are sampled to
-    # maintain an even distr
+    # maintain an even distribution across the harvest cycle.
+    # Default is 2000.  Setting to 0 will disable.
+ 
