@@ -222,4 +222,5 @@ common: &default_settings
     enabled: true
 
   # Thread profiler measures wall clock time, CPU time, and method call counts
-  # in your application's t
+  # in your application's threads as they run.
+  # This feature is not available to Lite accounts and is automat
