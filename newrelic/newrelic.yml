@@ -221,4 +221,5 @@ common: &default_settings
     # Default is true.
     enabled: true
 
-  # Threa
+  # Thread profiler measures wall clock time, CPU time, and method call counts
+  # in your application's t
