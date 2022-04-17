@@ -217,4 +217,8 @@ common: &default_settings
   # performance data when calling applications monitored by other New Relic Agents.
   cross_application_tracer:
 
-    
+    # Set to false to disable cross application tracing.
+    # Default is true.
+    enabled: true
+
+  # Threa
