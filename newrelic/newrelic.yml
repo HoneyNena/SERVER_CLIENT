@@ -226,4 +226,8 @@ common: &default_settings
   # This feature is not available to Lite accounts and is automatically disabled.
   thread_profiler:
 
-    # Set to false to disable the thread 
+    # Set to false to disable the thread profiler.
+    # Default is true.
+    enabled: true
+
+  # New Relic Real User Monitoring gives yo
