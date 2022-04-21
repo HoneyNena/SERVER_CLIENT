@@ -230,4 +230,5 @@ common: &default_settings
     # Default is true.
     enabled: true
 
-  # New Relic Real User Monitoring gives yo
+  # New Relic Real User Monitoring gives you insight into the performance real users are
+  # experiencing with your website. This is accompl
