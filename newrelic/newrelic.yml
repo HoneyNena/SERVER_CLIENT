@@ -237,4 +237,5 @@ common: &default_settings
   browser_monitoring:
 
     # By default the agent automatically inserts API calls in compiled JSPs to
-    
+    # inject the monitoring JavaScript into web pages. Not all rendering engines are supported.
+    # 
