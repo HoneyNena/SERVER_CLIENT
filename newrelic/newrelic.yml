@@ -238,4 +238,6 @@ common: &default_settings
 
     # By default the agent automatically inserts API calls in compiled JSPs to
     # inject the monitoring JavaScript into web pages. Not all rendering engines are supported.
-    # See https://docs.newrelic.com/docs/java/real-user-monitoring-in-java#manual_instru
+    # See https://docs.newrelic.com/docs/java/real-user-monitoring-in-java#manual_instrumentation
+    # for instructions to add these manually to your pages.
+    # Set this attribute to false to turn off t
