@@ -247,4 +247,9 @@ common: &default_settings
     # This instrumentation reports the name of the user principal returned from 
     # HttpServletRequest.getUserPrincipal() when servlets and filters are invoked.
     com.newrelic.instrumentation.servlet-user:
-    
+      enabled: false
+
+    com.newrelic.instrumentation.spring-aop-2:
+      enabled: false
+
+  # Use
