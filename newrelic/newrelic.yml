@@ -244,4 +244,5 @@ common: &default_settings
     auto_instrument: true
 
   class_transformer:
-    # This instrument
+    # This instrumentation reports the name of the user principal returned from 
+    # HttpServletRequest.getUserPrincipal()
