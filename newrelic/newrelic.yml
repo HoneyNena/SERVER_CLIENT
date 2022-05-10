@@ -245,4 +245,6 @@ common: &default_settings
 
   class_transformer:
     # This instrumentation reports the name of the user principal returned from 
-    # HttpServletRequest.getUserPrincipal()
+    # HttpServletRequest.getUserPrincipal() when servlets and filters are invoked.
+    com.newrelic.instrumentation.servlet-user:
+    
