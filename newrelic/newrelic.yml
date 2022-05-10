@@ -253,4 +253,5 @@ common: &default_settings
       enabled: false
 
   # User-configurable custom labels for this agent.  Labels are name-value pairs.
-  # There is a max
+  # There is a maximum of 64 labels per agent.  Names and values are limited to 255 characters.
+  # Names and values may 
