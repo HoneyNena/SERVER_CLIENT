@@ -263,4 +263,5 @@ common: &default_settings
 
 # Application Environments
 # ------------------------------------------
-# Environment specific 
+# Environment specific settings are in this section.
+# You can use the environment to override the default settings.
