@@ -270,4 +270,5 @@ common: &default_settings
 # to set the environment.
 # The default environment is production.
 
-# NOTE i
+# NOTE if your application has other named environments, you should
+# provide configuration settings for these
