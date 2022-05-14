@@ -271,4 +271,8 @@ common: &default_settings
 # The default environment is production.
 
 # NOTE if your application has other named environments, you should
-# provide configuration settings for these
+# provide configuration settings for these environments here.
+
+development:
+  <<: *default_settings
+  app_name: My Application (
