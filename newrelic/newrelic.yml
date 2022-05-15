@@ -282,3 +282,8 @@ test:
   app_name: My Application (Test)
 
 production:
+  <<: *default_settings
+
+staging:
+  <<: *default_settings
+  app_name: My Application (Staging
