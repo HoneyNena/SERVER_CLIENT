@@ -190,3 +190,94 @@ common: &default_settings
 
     # Use this property to exclude specific exceptions from being reported as errors
     # by providing a comma separated list of full class names.
+    # The default is to exclude akka.actor.ActorKilledException. If you want to override
+    # this, you must provide any new value as an empty list is ignored.
+    ignore_errors: akka.actor.ActorKilledException
+
+    # Use this property to exclude specific http status codes from being reported as errors
+    # by providing a comma separated list of status codes.
+    # The default is to exclude 404s. If you want to override
+    # this, you must provide any new value as an empty list is ignored.
+    ignore_status_codes: 404
+
+  # Transaction Events are used for Histograms and Percentiles. Unaggregated data is collected
+  # for each web transaction and sent to the server on harvest. 
+  transaction_events:
+
+    # Set to false to disable transaction events.
+    # Default is true.
+    enabled: true
+
+    # Events are collected up to the configured amount. Afterwards, events are sampled to
+    # maintain an even distribution across the harvest cycle.
+    # Default is 2000.  Setting to 0 will disable.
+    max_samples_stored: 2000
+
+  # Cross Application Tracing adds request and response headers to
+  # external calls using supported HTTP libraries to provide better
+  # performance data when calling applications monitored by other New Relic Agents.
+  cross_application_tracer:
+
+    # Set to false to disable cross application tracing.
+    # Default is true.
+    enabled: true
+
+  # Thread profiler measures wall clock time, CPU time, and method call counts
+  # in your application's threads as they run.
+  # This feature is not available to Lite accounts and is automatically disabled.
+  thread_profiler:
+
+    # Set to false to disable the thread profiler.
+    # Default is true.
+    enabled: true
+
+  # New Relic Real User Monitoring gives you insight into the performance real users are
+  # experiencing with your website. This is accomplished by measuring the time it takes for
+  # your users' browsers to download and render your web pages by injecting a small amount
+  # of JavaScript code into the header and footer of each page. 
+  browser_monitoring:
+
+    # By default the agent automatically inserts API calls in compiled JSPs to
+    # inject the monitoring JavaScript into web pages. Not all rendering engines are supported.
+    # See https://docs.newrelic.com/docs/java/real-user-monitoring-in-java#manual_instrumentation
+    # for instructions to add these manually to your pages.
+    # Set this attribute to false to turn off this behavior.
+    auto_instrument: true
+
+  class_transformer:
+    # This instrumentation reports the name of the user principal returned from 
+    # HttpServletRequest.getUserPrincipal() when servlets and filters are invoked.
+    com.newrelic.instrumentation.servlet-user:
+      enabled: false
+
+    com.newrelic.instrumentation.spring-aop-2:
+      enabled: false
+
+  # User-configurable custom labels for this agent.  Labels are name-value pairs.
+  # There is a maximum of 64 labels per agent.  Names and values are limited to 255 characters.
+  # Names and values may not contain colons (:) or semicolons (;).
+  labels:
+
+    # An example label
+    #label_name: label_value
+
+
+# Application Environments
+# ------------------------------------------
+# Environment specific settings are in this section.
+# You can use the environment to override the default settings.
+# For example, to change the app_name setting.
+# Use -Dnewrelic.environment=<environment> on the Java startup command line
+# to set the environment.
+# The default environment is production.
+
+# NOTE if your application has other named environments, you should
+# provide configuration settings for these environments here.
+
+development:
+  <<: *default_settings
+  app_name: My Application (Development)
+
+test:
+  <<: *default_settings
+  app_name: My Application (Test)
