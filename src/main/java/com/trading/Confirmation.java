@@ -10,4 +10,6 @@ public class Confirmation implements Serializable {
     public static final String EMAIL = "EMAIL";
     public static final String SWIFT = "SWIFT";
 
-    priva
+    private byte[] content;
+    private String confirmationType;
+    private String alloca
