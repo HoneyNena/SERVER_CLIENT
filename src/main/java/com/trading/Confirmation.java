@@ -7,4 +7,7 @@ import java.math.BigDecimal;
 
 public class Confirmation implements Serializable {
 
-    p
+    public static final String EMAIL = "EMAIL";
+    public static final String SWIFT = "SWIFT";
+
+    priva
