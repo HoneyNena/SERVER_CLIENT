@@ -12,4 +12,8 @@ public class Confirmation implements Serializable {
 
     private byte[] content;
     private String confirmationType;
-    private String alloca
+    private String allocationId;
+    private String securityId;
+    private String tradeSide;
+    private String tradeDate;
+    pri
