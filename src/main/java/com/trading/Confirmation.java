@@ -16,4 +16,7 @@ public class Confirmation implements Serializable {
     private String securityId;
     private String tradeSide;
     private String tradeDate;
-    pri
+    private int quantity;
+    private String counterpartyId;
+    private String counterpartyName;
+    private
