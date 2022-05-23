@@ -22,3 +22,8 @@ public class Confirmation implements Serializable {
     private String executingPartyId;
     private String executingPartyName;
     private String micCode;
+    private String country;
+    private String countryCode;
+    private String exchangeName;
+
+    priv
