@@ -19,4 +19,6 @@ public class Confirmation implements Serializable {
     private int quantity;
     private String counterpartyId;
     private String counterpartyName;
-    private
+    private String executingPartyId;
+    private String executingPartyName;
+    private String micCode;
