@@ -31,4 +31,8 @@ public class Confirmation implements Serializable {
     private String instrumentSymbol;
     private String instrumentName;
     private String instrumentCurrency;
-    private String 
+    private String instrumentExchange;
+    private BigDecimal price;
+    private BigDecimal instrumentPrice;
+
+    public String 
