@@ -26,4 +26,6 @@ public class Confirmation implements Serializable {
     private String countryCode;
     private String exchangeName;
 
-    priv
+    private String exchangeAcronym;
+    private String exchangeCity;
+    private String instrumentSy
