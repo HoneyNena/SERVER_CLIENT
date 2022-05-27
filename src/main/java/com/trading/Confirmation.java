@@ -39,4 +39,8 @@ public class Confirmation implements Serializable {
         return instrumentSymbol;
     }
 
-    public void setInstrumentSymbol(Stri
+    public void setInstrumentSymbol(String instrumentSymbol) {
+        this.instrumentSymbol = instrumentSymbol;
+    }
+
+    public S
