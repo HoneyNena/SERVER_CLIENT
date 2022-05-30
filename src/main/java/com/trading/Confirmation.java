@@ -47,4 +47,8 @@ public class Confirmation implements Serializable {
         return instrumentName;
     }
 
-    public void setInstru
+    public void setInstrumentName(String instrumentName) {
+        this.instrumentName = instrumentName;
+    }
+
+    public String ge
