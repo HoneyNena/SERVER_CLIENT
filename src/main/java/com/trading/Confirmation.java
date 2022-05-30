@@ -43,4 +43,8 @@ public class Confirmation implements Serializable {
         this.instrumentSymbol = instrumentSymbol;
     }
 
-    public S
+    public String getInstrumentName() {
+        return instrumentName;
+    }
+
+    public void setInstru
