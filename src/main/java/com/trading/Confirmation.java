@@ -51,4 +51,8 @@ public class Confirmation implements Serializable {
         this.instrumentName = instrumentName;
     }
 
-    public String ge
+    public String getInstrumentCurrency() {
+        return instrumentCurrency;
+    }
+
+    public void setInstrumentCurrency(String in
