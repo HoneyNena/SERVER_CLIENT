@@ -65,4 +65,10 @@ public class Confirmation implements Serializable {
 
     public void setInstrumentExchange(String instrumentExchange) {
         this.instrumentExchange = instrumentExchange;
-    
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDec
