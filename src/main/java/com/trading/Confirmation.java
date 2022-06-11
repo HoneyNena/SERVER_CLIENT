@@ -83,4 +83,8 @@ public class Confirmation implements Serializable {
         this.country = country;
     }
 
- 
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+    public void setCountryCod
