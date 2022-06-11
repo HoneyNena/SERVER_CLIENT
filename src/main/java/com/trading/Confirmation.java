@@ -71,4 +71,9 @@ public class Confirmation implements Serializable {
         return price;
     }
 
-    public void setPrice(BigDec
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+    public String getCountry() {
+    
