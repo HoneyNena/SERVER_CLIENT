@@ -93,3 +93,8 @@ public class Confirmation implements Serializable {
 
 
     public String getExchangeName() {
+        return exchangeName;
+    }
+
+    public void setExchangeName(String exchangeName) {
+        this.exc
