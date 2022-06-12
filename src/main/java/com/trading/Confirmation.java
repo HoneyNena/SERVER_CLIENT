@@ -102,3 +102,7 @@ public class Confirmation implements Serializable {
 
     public String getExchangeAcronym() {
         return exchangeAcronym;
+    }
+
+    public void setExchangeAcronym(String exchangeAcronym) {
+        this.exchangeAcro
