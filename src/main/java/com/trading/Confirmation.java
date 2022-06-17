@@ -109,4 +109,8 @@ public class Confirmation implements Serializable {
     }
 
     public String getExchangeCity() {
-        r
+        return exchangeCity;
+    }
+
+    public void setExchangeCity(String exchangeCity) {
+        this.exchangeCity = 
