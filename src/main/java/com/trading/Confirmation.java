@@ -128,4 +128,8 @@ public class Confirmation implements Serializable {
         return securityId;
     }
 
-    public void
+    public void setSecurityId(String securityId) {
+        this.securityId = securityId;
+    }
+
+    public St
