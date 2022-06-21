@@ -118,4 +118,7 @@ public class Confirmation implements Serializable {
 
     public String getAllocationId() {
         return allocationId;
-    
+    }
+
+    public void setAllocationId(String allocationId) {
+        this.allocationI
