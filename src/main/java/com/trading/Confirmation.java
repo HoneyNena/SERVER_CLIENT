@@ -132,4 +132,8 @@ public class Confirmation implements Serializable {
         this.securityId = securityId;
     }
 
-    public St
+    public String getTradeSide() {
+        return tradeSide;
+    }
+
+    public void setTradeSide(String
