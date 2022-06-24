@@ -136,4 +136,9 @@ public class Confirmation implements Serializable {
         return tradeSide;
     }
 
-    public void setTradeSide(String
+    public void setTradeSide(String tradeSide) {
+        this.tradeSide = tradeSide;
+    }
+
+    public String getTradeDate() {
+        retu
