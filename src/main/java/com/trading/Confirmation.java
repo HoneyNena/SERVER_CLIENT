@@ -141,4 +141,8 @@ public class Confirmation implements Serializable {
     }
 
     public String getTradeDate() {
-        retu
+        return tradeDate;
+    }
+
+    public void setTradeDate(String tradeDate) {
+        this.tradeDate
