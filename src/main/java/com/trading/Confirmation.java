@@ -145,4 +145,11 @@ public class Confirmation implements Serializable {
     }
 
     public void setTradeDate(String tradeDate) {
-        this.tradeDate
+        this.tradeDate = tradeDate;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    
