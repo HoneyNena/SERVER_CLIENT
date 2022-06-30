@@ -156,4 +156,8 @@ public class Confirmation implements Serializable {
         this.quantity = quantity;
     }
 
-    
+    public String getCounterpartyId() {
+        return counterpartyId;
+    }
+
+    public void set
