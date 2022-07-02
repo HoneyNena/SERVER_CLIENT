@@ -164,4 +164,8 @@ public class Confirmation implements Serializable {
         this.counterpartyId = counterpartyId;
     }
 
-    public String get
+    public String getCounterpartyName() {
+        return counterpartyName;
+    }
+
+    public void setCounterpar
