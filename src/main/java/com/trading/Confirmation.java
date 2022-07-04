@@ -168,4 +168,6 @@ public class Confirmation implements Serializable {
         return counterpartyName;
     }
 
-    public void setCounterpar
+    public void setCounterpartyName(String counterpartyName) {
+        this.counterpartyName = counterpartyName;
+  
