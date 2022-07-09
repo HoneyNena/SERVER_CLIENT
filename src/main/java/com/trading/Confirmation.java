@@ -176,4 +176,8 @@ public class Confirmation implements Serializable {
         return executingPartyId;
     }
 
-    publ
+    public void setExecutingPartyId(String executingPartyId) {
+        this.executingPartyId = executingPartyId;
+    }
+
+    public S
