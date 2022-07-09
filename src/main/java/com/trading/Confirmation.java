@@ -170,4 +170,10 @@ public class Confirmation implements Serializable {
 
     public void setCounterpartyName(String counterpartyName) {
         this.counterpartyName = counterpartyName;
-  
+    }
+
+    public String getExecutingPartyId() {
+        return executingPartyId;
+    }
+
+    publ
