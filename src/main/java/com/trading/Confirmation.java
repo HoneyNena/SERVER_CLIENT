@@ -180,4 +180,8 @@ public class Confirmation implements Serializable {
         this.executingPartyId = executingPartyId;
     }
 
-    public S
+    public String getExecutingPartyName() {
+        return executingPartyName;
+    }
+
+    public void
