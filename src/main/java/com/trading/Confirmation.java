@@ -192,4 +192,8 @@ public class Confirmation implements Serializable {
         this.micCode = micCode;
     }
 
-    
+    public String getMicCode() {
+        return micCode;
+    }
+
+    public BigDecimal getInstrument
