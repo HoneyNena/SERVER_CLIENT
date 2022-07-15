@@ -185,4 +185,11 @@ public class Confirmation implements Serializable {
     }
 
     public void setExecutingPartyName(String executingPartyName) {
-        this.executingPartyName = executingPartyN
+        this.executingPartyName = executingPartyName;
+    }
+
+    public void setMicCode(String micCode) {
+        this.micCode = micCode;
+    }
+
+    
