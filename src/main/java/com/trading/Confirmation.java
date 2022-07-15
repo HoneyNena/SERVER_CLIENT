@@ -184,4 +184,5 @@ public class Confirmation implements Serializable {
         return executingPartyName;
     }
 
-    public void
+    public void setExecutingPartyName(String executingPartyName) {
+        this.executingPartyName = executingPartyN
