@@ -205,4 +205,6 @@ public class Confirmation implements Serializable {
     }
 
     private static void checkIfConfirmationTypeIsValid(String confirmationType) {
-        if ("SWIFT".equals(confirmationTyp
+        if ("SWIFT".equals(confirmationType) || "EMAIL".equals(confirmationType) || confirmationType == null) {
+            return;
+        }
