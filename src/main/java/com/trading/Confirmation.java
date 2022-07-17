@@ -201,4 +201,7 @@ public class Confirmation implements Serializable {
     }
 
     public void setInstrumentPrice(BigDecimal instrumentPrice) {
-   
+        this.instrumentPrice = instrumentPrice;
+    }
+
+    private static void checkIfConf
