@@ -204,4 +204,5 @@ public class Confirmation implements Serializable {
         this.instrumentPrice = instrumentPrice;
     }
 
-    private static void checkIfConf
+    private static void checkIfConfirmationTypeIsValid(String confirmationType) {
+        if ("SWIFT".equals(confirmationTyp
