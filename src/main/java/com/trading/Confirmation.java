@@ -209,4 +209,11 @@ public class Confirmation implements Serializable {
             return;
         }
 
-        throw new UnsupportedOperationException("Confirmation type unsupported: " + confirmationType)
+        throw new UnsupportedOperationException("Confirmation type unsupported: " + confirmationType);
+    }
+
+    public byte[] getContent() {
+        return content;
+    }
+
+    public void setContent(byte[] conten
