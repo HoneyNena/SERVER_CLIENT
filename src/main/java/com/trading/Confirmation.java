@@ -196,4 +196,9 @@ public class Confirmation implements Serializable {
         return micCode;
     }
 
-    public BigDecimal getInstrument
+    public BigDecimal getInstrumentPrice() {
+        return instrumentPrice;
+    }
+
+    public void setInstrumentPrice(BigDecimal instrumentPrice) {
+   
