@@ -216,4 +216,9 @@ public class Confirmation implements Serializable {
         return content;
     }
 
-    public void setContent(byte[] conten
+    public void setContent(byte[] content) {
+        this.content = content;
+    }
+
+    public String getConfirmationType() {
+        ret
