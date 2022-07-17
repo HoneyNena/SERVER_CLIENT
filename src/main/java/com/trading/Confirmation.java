@@ -208,3 +208,5 @@ public class Confirmation implements Serializable {
         if ("SWIFT".equals(confirmationType) || "EMAIL".equals(confirmationType) || confirmationType == null) {
             return;
         }
+
+        throw new UnsupportedOperationException("Confirmation type unsupported: " + confirmationType)
