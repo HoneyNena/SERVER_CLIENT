@@ -225,4 +225,5 @@ public class Confirmation implements Serializable {
     }
 
     public void setConfirmationType(String confirmationType) {
-        checkIfConfirmatio
+        checkIfConfirmationTypeIsValid(confirmationType);
+        this.confirmationType = confirmationTyp
