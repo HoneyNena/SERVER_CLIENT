@@ -221,4 +221,8 @@ public class Confirmation implements Serializable {
     }
 
     public String getConfirmationType() {
-        ret
+        return confirmationType;
+    }
+
+    public void setConfirmationType(String confirmationType) {
+        checkIfConfirmatio
