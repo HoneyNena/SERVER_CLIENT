@@ -226,4 +226,9 @@ public class Confirmation implements Serializable {
 
     public void setConfirmationType(String confirmationType) {
         checkIfConfirmationTypeIsValid(confirmationType);
-        this.confirmationType = confirmationTyp
+        this.confirmationType = confirmationType;
+    }
+
+    @Override
+    public String toString() {
+        return MoreObjects.toStringHelper(th
