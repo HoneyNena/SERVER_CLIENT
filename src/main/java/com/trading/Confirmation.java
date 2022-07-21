@@ -235,4 +235,6 @@ public class Confirmation implements Serializable {
                 .add("content", content)
                 .add("confirmationType", confirmationType)
                 .add("allocationId", allocationId)
-                .add("securityId", se
+                .add("securityId", securityId)
+                .add("tradeSide", tradeSide)
+                .add("trade
