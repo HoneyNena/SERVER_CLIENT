@@ -231,4 +231,6 @@ public class Confirmation implements Serializable {
 
     @Override
     public String toString() {
-        return MoreObjects.toStringHelper(th
+        return MoreObjects.toStringHelper(this)
+                .add("content", content)
+                .add("confirmationType", confirmati
