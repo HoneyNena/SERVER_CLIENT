@@ -233,4 +233,6 @@ public class Confirmation implements Serializable {
     public String toString() {
         return MoreObjects.toStringHelper(this)
                 .add("content", content)
-                .add("confirmationType", confirmati
+                .add("confirmationType", confirmationType)
+                .add("allocationId", allocationId)
+                .add("securityId", se
