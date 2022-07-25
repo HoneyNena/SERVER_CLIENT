@@ -241,4 +241,5 @@ public class Confirmation implements Serializable {
                 .add("quantity", quantity)
                 .add("counterpartyId", counterpartyId)
                 .add("counterpartyName", counterpartyName)
-                
+                .add("executingPartyId", executingPartyId)
+                .add("executingPartyName", exec
