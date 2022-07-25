@@ -245,3 +245,5 @@ public class Confirmation implements Serializable {
                 .add("executingPartyName", executingPartyName)
                 .add("micCode", micCode)
                 .add("country", country)
+                .add("countryCode", countryCode)
+                .add("exchangeName",
