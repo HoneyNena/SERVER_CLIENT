@@ -250,4 +250,6 @@ public class Confirmation implements Serializable {
                 .add("exchangeAcronym", exchangeAcronym)
                 .add("exchangeCity", exchangeCity)
                 .add("instrumentSymbol", instrumentSymbol)
-                .add("instrumentName", i
+                .add("instrumentName", instrumentName)
+                .add("instrumentCurrency", instrumentCurrency)
+                .a
