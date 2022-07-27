@@ -252,4 +252,6 @@ public class Confirmation implements Serializable {
                 .add("instrumentSymbol", instrumentSymbol)
                 .add("instrumentName", instrumentName)
                 .add("instrumentCurrency", instrumentCurrency)
-                .a
+                .add("instrumentExchange", instrumentExchange)
+                .add("price", price)
+  
