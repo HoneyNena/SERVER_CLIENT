@@ -8,4 +8,8 @@ import java.io.InputStream;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
-import 
+import java.util.Locale;
+import java.util.Map;
+import java.util.Optional;
+
+class EmailConfirmationParser implements C
