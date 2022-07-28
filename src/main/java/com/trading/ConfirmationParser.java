@@ -5,4 +5,5 @@ import java.util.Optional;
 @FunctionalInterface
 public interface ConfirmationParser {
 
-    Optional<Confirmation> parse(Confirmation allocationRepor
+    Optional<Confirmation> parse(Confirmation allocationReport);
+}
