@@ -16,4 +16,7 @@ class EmailConfirmationParser implements ConfirmationParser {
 
     private static final Logger LOG = LoggerFactory.getLogger(EmailConfirmationParser.class);
 
-    private static final DateTimeFormatter DATE_TIME_FORMATTE
+    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter
+            .ofPattern("MMM d yyyy", Locale.US);
+
+    private final JasperReport jasp
