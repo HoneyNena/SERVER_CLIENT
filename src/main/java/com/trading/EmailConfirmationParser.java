@@ -19,4 +19,7 @@ class EmailConfirmationParser implements ConfirmationParser {
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter
             .ofPattern("MMM d yyyy", Locale.US);
 
-    private final JasperReport jasp
+    private final JasperReport jasperReport;
+
+    public EmailConfirmationParser() throws JRException {
+        InputStream resou
