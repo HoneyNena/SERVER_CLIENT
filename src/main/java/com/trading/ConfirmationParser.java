@@ -3,4 +3,6 @@ package com.trading;
 import java.util.Optional;
 
 @FunctionalInterface
-pu
+public interface ConfirmationParser {
+
+    Optional<Confirmation> parse(Confirmation allocationRepor
