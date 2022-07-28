@@ -12,4 +12,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 
-class EmailConfirmationParser implements C
+class EmailConfirmationParser implements ConfirmationParser {
+
+    private static final Logger LOG = LoggerFactory.getLogger(Emai
