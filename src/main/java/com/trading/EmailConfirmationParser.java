@@ -14,4 +14,6 @@ import java.util.Optional;
 
 class EmailConfirmationParser implements ConfirmationParser {
 
-    private static final Logger LOG = LoggerFactory.getLogger(Emai
+    private static final Logger LOG = LoggerFactory.getLogger(EmailConfirmationParser.class);
+
+    private static final DateTimeFormatter DATE_TIME_FORMATTE
