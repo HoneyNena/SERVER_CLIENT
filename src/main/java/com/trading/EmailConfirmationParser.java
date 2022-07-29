@@ -22,4 +22,5 @@ class EmailConfirmationParser implements ConfirmationParser {
     private final JasperReport jasperReport;
 
     public EmailConfirmationParser() throws JRException {
-        InputStream resou
+        InputStream resourceAsStream = EmailConfirmationParser.class
+                .getClassLoader().getResourceAsStream("Conf
