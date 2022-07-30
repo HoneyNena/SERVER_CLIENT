@@ -26,3 +26,7 @@ class EmailConfirmationParser implements ConfirmationParser {
                 .getClassLoader().getResourceAsStream("Confirmation.jrxml");
 
         jasperReport = JasperCompileManager.compileReport(resourceAsStream);
+    }
+
+    @Override
+    public Optional<Confirmation> parse(Confirmation confirm
