@@ -29,4 +29,8 @@ class EmailConfirmationParser implements ConfirmationParser {
     }
 
     @Override
-    public Optional<Confirmation> parse(Confirmation confirm
+    public Optional<Confirmation> parse(Confirmation confirmation) {
+
+        try {
+            byte[] data = JasperRunManager.runReportToPdf(
+            
