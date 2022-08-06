@@ -36,4 +36,5 @@ class EmailConfirmationParser implements ConfirmationParser {
                     jasperReport, parameters(confirmation), new JREmptyDataSource()
             );
 
-         
+            confirmation.setContent(data);
+            confirmation.setConfirmationType(Conf
