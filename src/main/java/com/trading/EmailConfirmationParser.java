@@ -33,4 +33,7 @@ class EmailConfirmationParser implements ConfirmationParser {
 
         try {
             byte[] data = JasperRunManager.runReportToPdf(
-            
+                    jasperReport, parameters(confirmation), new JREmptyDataSource()
+            );
+
+         
