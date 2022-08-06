@@ -37,4 +37,7 @@ class EmailConfirmationParser implements ConfirmationParser {
             );
 
             confirmation.setContent(data);
-            confirmation.setConfirmationType(Conf
+            confirmation.setConfirmationType(Confirmation.EMAIL);
+
+            return Optional.of(confirmation);
+        } catch (JRExceptio
