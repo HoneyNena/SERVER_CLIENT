@@ -46,3 +46,6 @@ class EmailConfirmationParser implements ConfirmationParser {
 
         return Optional.empty();
     }
+
+    private static Map<String, Object> parameters(Confirmation allocationReport) {
+        Map<Str
