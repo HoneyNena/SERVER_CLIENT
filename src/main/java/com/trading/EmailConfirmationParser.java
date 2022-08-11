@@ -50,3 +50,6 @@ class EmailConfirmationParser implements ConfirmationParser {
     private static Map<String, Object> parameters(Confirmation allocationReport) {
         Map<String, Object> map = new HashMap<>();
         map.put("ALLOC_RPT_ID", allocationReport.getAllocationId());
+        map.put("TRANS_TYPE", "NEW");
+        map.put("INST_ID_TYPE", "SEDOL");
+        map.put("I
