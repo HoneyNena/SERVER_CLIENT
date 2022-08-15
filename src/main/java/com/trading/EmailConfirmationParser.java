@@ -54,4 +54,6 @@ class EmailConfirmationParser implements ConfirmationParser {
         map.put("INST_ID_TYPE", "SEDOL");
         map.put("INST_ID", allocationReport.getSecurityId());
 
-        map.put("ALLOC_INSTR_NAME", allocationReport.
+        map.put("ALLOC_INSTR_NAME", allocationReport.getInstrumentName());
+        map.put("CURRENCY", allocationReport.getInstrumentCurrency());
+        
