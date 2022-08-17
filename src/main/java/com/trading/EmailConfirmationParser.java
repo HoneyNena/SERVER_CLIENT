@@ -56,4 +56,6 @@ class EmailConfirmationParser implements ConfirmationParser {
 
         map.put("ALLOC_INSTR_NAME", allocationReport.getInstrumentName());
         map.put("CURRENCY", allocationReport.getInstrumentCurrency());
-        
+        map.put("EXCHANGE", allocationReport.getInstrumentExchange());
+
+        map.put("QUANTITY"
