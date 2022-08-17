@@ -64,4 +64,7 @@ class EmailConfirmationParser implements ConfirmationParser {
 
         LocalDate tradeDate = LocalDate.parse(
                 allocationReport.getTradeDate(),
-                DateTimeF
+                DateTimeFormatter.ofPattern("yyyy-MM-dd")
+        );
+
+        map.put("TRADE_DATE", tradeDate.format(DATE_TIME_FORM
