@@ -62,4 +62,6 @@ class EmailConfirmationParser implements ConfirmationParser {
         map.put("PRICE", allocationReport.getPrice().toString());
         map.put("SIDE", allocationReport.getTradeSide());
 
-        LocalDate
+        LocalDate tradeDate = LocalDate.parse(
+                allocationReport.getTradeDate(),
+                DateTimeF
