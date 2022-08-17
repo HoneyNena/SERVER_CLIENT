@@ -67,4 +67,8 @@ class EmailConfirmationParser implements ConfirmationParser {
                 DateTimeFormatter.ofPattern("yyyy-MM-dd")
         );
 
-        map.put("TRADE_DATE", tradeDate.format(DATE_TIME_FORM
+        map.put("TRADE_DATE", tradeDate.format(DATE_TIME_FORMATTER));
+
+        return map;
+    }
+}
