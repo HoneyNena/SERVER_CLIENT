@@ -3,4 +3,6 @@
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="98"/>
-	<parameter name="ALLOC_RPT_ID" class="java.lang.Str
+	<parameter name="ALLOC_RPT_ID" class="java.lang.String"/>
+	<parameter name="TRANS_TYPE" class="java.lang.String"/>
+	<parameter name="ALLOC_INSTR_NAME
