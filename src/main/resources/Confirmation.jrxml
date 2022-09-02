@@ -5,4 +5,6 @@
 	<property name="ireport.y" value="98"/>
 	<parameter name="ALLOC_RPT_ID" class="java.lang.String"/>
 	<parameter name="TRANS_TYPE" class="java.lang.String"/>
-	<parameter name="ALLOC_INSTR_NAME
+	<parameter name="ALLOC_INSTR_NAME" class="java.lang.String"/>
+	<parameter name="CURRENCY" class="java.lang.String"/>
+	<paramete
