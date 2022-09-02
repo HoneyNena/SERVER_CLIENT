@@ -8,4 +8,6 @@
 	<parameter name="ALLOC_INSTR_NAME" class="java.lang.String"/>
 	<parameter name="CURRENCY" class="java.lang.String"/>
 	<parameter name="EXCHANGE" class="java.lang.String"/>
-	<parameter name="INST_ID_TYPE" class="j
+	<parameter name="INST_ID_TYPE" class="java.lang.String"/>
+	<parameter name="INST_ID" class="java.lang.String"/>
+	<parameter name="PRICE
