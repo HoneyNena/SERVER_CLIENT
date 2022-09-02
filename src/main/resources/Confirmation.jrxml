@@ -12,4 +12,6 @@
 	<parameter name="INST_ID" class="java.lang.String"/>
 	<parameter name="PRICE" class="java.lang.String"/>
 	<parameter name="QUANTITY" class="java.lang.String"/>
-	<parameter name="SIDE" cl
+	<parameter name="SIDE" class="java.lang.String"/>
+	<parameter name="TRADE_DATE" class="java.lang.String"/>
+	<title>
