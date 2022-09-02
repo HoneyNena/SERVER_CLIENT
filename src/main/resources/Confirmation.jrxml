@@ -15,3 +15,6 @@
 	<parameter name="SIDE" class="java.lang.String"/>
 	<parameter name="TRADE_DATE" class="java.lang.String"/>
 	<title>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="
