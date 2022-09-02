@@ -10,4 +10,6 @@
 	<parameter name="EXCHANGE" class="java.lang.String"/>
 	<parameter name="INST_ID_TYPE" class="java.lang.String"/>
 	<parameter name="INST_ID" class="java.lang.String"/>
-	<parameter name="PRICE
+	<parameter name="PRICE" class="java.lang.String"/>
+	<parameter name="QUANTITY" class="java.lang.String"/>
+	<parameter name="SIDE" cl
