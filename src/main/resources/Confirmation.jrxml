@@ -34,4 +34,7 @@
 			</textField>
 		</band>
 	</title>
-	<pageHe
+	<pageHeader>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="149"
