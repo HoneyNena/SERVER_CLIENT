@@ -30,4 +30,8 @@
 			</staticText>
 			<textField pattern="dd/MM/yyyy">
 				<reportElement x="15" y="16" width="100" height="20" uuid="f01af175-f013-4b2a-9278-c40b80f2b52c"/>
-				<textFieldExpression><![CDAT
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHe
