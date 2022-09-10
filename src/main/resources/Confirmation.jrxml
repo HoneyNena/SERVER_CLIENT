@@ -50,4 +50,5 @@
 	</columnHeader>
 	<detail>
 		<band height="111" splitType="Stretch">
-			<static
+			<staticText>
+				<reportElement x="15" y="15" width="100" height="20" uuid="77db62ae-0668-4bfd-8064-5803819854b
