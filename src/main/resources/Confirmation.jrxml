@@ -46,4 +46,8 @@
 		</band>
 	</pageHeader>
 	<columnHeader>
-		<band height="30
+		<band height="30" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="111" splitType="Stretch">
+			<static
