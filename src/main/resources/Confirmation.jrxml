@@ -65,4 +65,5 @@
 				<text><![CDATA[Type:]]></text>
 			</staticText>
 			<textField>
-				<reportEle
+				<reportElement x="115" y="35" width="100" height="20" uuid="bc1fd719-a99e-46e3-bf9f-f29ad28fc207"/>
+				<textElem
