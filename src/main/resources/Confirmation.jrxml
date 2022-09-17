@@ -66,4 +66,7 @@
 			</staticText>
 			<textField>
 				<reportElement x="115" y="35" width="100" height="20" uuid="bc1fd719-a99e-46e3-bf9f-f29ad28fc207"/>
-				<textElem
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TRANS_TY
