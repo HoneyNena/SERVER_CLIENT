@@ -76,3 +76,7 @@
 				<textElement>
 					<font size="12"/>
 				</textElement>
+				<textFieldExpression><![CDATA[$P{ALLOC_RPT_ID}]]></textFieldExpression>
+			</textField>
+			<staticText>
+	
