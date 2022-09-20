@@ -69,4 +69,7 @@
 				<textElement>
 					<font size="12"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{TRANS_TY
+				<textFieldExpression><![CDATA[$P{TRANS_TYPE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="115" y="15" width="100" he
