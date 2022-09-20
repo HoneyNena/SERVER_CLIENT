@@ -72,4 +72,7 @@
 				<textFieldExpression><![CDATA[$P{TRANS_TYPE}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="115" y="15" width="100" he
+				<reportElement x="115" y="15" width="100" height="20" uuid="8fe7c6b5-e520-49a8-b1b8-aed0ea88c984"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
