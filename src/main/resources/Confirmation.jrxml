@@ -93,4 +93,8 @@
 				<textFieldExpression><![CDATA[$P{INST_ID_TYPE}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="414" y="35" width="113" height="20" uuid="efe20079-
+				<reportElement x="414" y="35" width="113" height="20" uuid="efe20079-2867-44c8-ba5f-d3249199067f"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text
