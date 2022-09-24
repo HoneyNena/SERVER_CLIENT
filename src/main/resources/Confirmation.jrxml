@@ -89,4 +89,7 @@
 				<reportElement x="414" y="15" width="113" height="20" uuid="1ceadb5c-6c79-469f-a8e4-349abb2fd523"/>
 				<textElement>
 					<font size="12"/>
-				</textElemen
+				</textElement>
+				<textFieldExpression><![CDATA[$P{INST_ID_TYPE}]]></textFieldExpression>
+			</textField>
+			<text
