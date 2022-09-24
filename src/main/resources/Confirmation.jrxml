@@ -80,3 +80,7 @@
 			</textField>
 			<staticText>
 				<reportElement x="15" y="55" width="200" height="20" uuid="cdcc4af3-53fc-47bd-8222-e2a3c38c3513"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Free Of Paym
