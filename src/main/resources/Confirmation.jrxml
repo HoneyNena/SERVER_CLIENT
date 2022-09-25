@@ -100,4 +100,5 @@
 				<textFieldExpression><![CDATA[$P{INST_ID}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportEleme
+				<reportElement x="281" y="15" width="133" height="20" uuid="4ca47a1e-0955-40b4-a50f-2147c360ffc1"/>
+				<textElement>
