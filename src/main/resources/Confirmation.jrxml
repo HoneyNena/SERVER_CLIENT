@@ -123,4 +123,6 @@
 				<textFieldExpression><![CDATA[$P{ALLOC_INSTR_NAME}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="15" y="30" width="100" height="20"
+				<reportElement x="15" y="30" width="100" height="20" uuid="50ee51ff-5624-47bd-be1f-742f5211e1bd"/>
+				<textElement>
+					<font size="
