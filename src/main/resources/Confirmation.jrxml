@@ -114,4 +114,6 @@
 				<text><![CDATA[SECURITY ID:]]></text>
 			</staticText>
 		</band>
-		<band heigh
+		<band height="94">
+			<textField>
+				<reportElement x="149" y="0" width="265" height="20" uuid="1060c5ec-a
