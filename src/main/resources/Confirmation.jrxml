@@ -138,4 +138,7 @@
 			</textField>
 			<staticText>
 				<reportElement x="281" y="30" width="113" height="20" uuid="a086ca90-bd4b-4691-92a5-e97bdb949343"/>
-				<text
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Exchange:]]>
