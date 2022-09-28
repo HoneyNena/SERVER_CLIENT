@@ -130,4 +130,8 @@
 				<text><![CDATA[Price:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="115" y="30" width="100" height="20" uuid="92791f73-f26f-431b-a14a-7c4e
+				<reportElement x="115" y="30" width="100" height="20" uuid="92791f73-f26f-431b-a14a-7c4ef9a08ac7"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpressio
