@@ -144,4 +144,8 @@
 				<text><![CDATA[Exchange:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="394" y="30" width="116" height="20" uuid=
+				<reportElement x="394" y="30" width="116" height="20" uuid="d1a9252d-8f2b-45f1-b1b0-ba50032d9412"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFie
