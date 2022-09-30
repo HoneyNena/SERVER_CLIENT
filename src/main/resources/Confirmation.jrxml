@@ -148,4 +148,7 @@
 				<textElement>
 					<font size="12"/>
 				</textElement>
-				<textFie
+				<textFieldExpression><![CDATA[$P{EXCHANGE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<r
