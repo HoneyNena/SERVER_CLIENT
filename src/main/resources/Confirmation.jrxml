@@ -151,4 +151,8 @@
 				<textFieldExpression><![CDATA[$P{EXCHANGE}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="15" y="50" width="100" height="20" uuid="612d1739-3171-404d-80ca-aa319dbde
+				<reportElement x="15" y="50" width="100" height="20" uuid="612d1739-3171-404d-80ca-aa319dbdead0"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Quantity:]]></text
