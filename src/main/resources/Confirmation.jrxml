@@ -162,4 +162,7 @@
 				<textElement>
 					<font size="12"/>
 				</textElement>
-				<text><![CDATA[C
+				<text><![CDATA[Currency:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="115" y="50" width
