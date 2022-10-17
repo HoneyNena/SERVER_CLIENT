@@ -183,4 +183,7 @@
 				<textElement>
 					<font size="12"/>
 				</textElement>
-	
+				<text><![CDATA[Side:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="394" y="50" width=
