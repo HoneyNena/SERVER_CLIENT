@@ -179,4 +179,8 @@
 				<textFieldExpression><![CDATA[$P{CURRENCY}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="281" y="50" width="113" height="20" uuid="b30b29c9-ec1
+				<reportElement x="281" y="50" width="113" height="20" uuid="b30b29c9-ec1e-49d3-8173-b70f320382bb"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+	
