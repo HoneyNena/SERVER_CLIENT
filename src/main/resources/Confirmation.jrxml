@@ -189,4 +189,7 @@
 				<reportElement x="394" y="50" width="116" height="20" uuid="5a9c84ca-df79-4dba-85ce-41f9374ecae1"/>
 				<textElement>
 					<font size="12"/>
-				
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SIDE}]]></textFieldExpression>
+			</textField>
+	
