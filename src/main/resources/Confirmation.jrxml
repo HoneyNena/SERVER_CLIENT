@@ -192,4 +192,5 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$P{SIDE}]]></textFieldExpression>
 			</textField>
-	
+			<staticText>
+				<reportElement x="281" y="70" width="113" height="20" uuid="88f3ec20-b65a-4628-9c6c
