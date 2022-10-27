@@ -197,4 +197,7 @@
 				<textElement>
 					<font size="12"/>
 				</textElement>
-				<text><![CDATA[Trade Date
+				<text><![CDATA[Trade Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="394" y="70" width="116
