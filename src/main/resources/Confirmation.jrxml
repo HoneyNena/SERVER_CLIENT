@@ -200,4 +200,7 @@
 				<text><![CDATA[Trade Date:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="394" y="70" width="116
+				<reportElement x="394" y="70" width="116" height="20" uuid="6e4a55d4-48a5-4bb3-b286-218bdb234822"/>
+				<textElement>
+					<font size="12"/>
+				<
