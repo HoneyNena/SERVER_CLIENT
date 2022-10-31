@@ -211,3 +211,8 @@
 	<columnFooter>
 		<band height="30" splitType="Stretch"/>
 	</columnFooter>
+	<pageFooter>
+		<band height="50" splitType="Stretch"/>
+	</pageFooter>
+	<lastPageFooter>
+		<band hei
