@@ -215,4 +215,6 @@
 		<band height="50" splitType="Stretch"/>
 	</pageFooter>
 	<lastPageFooter>
-		<band hei
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="149" y="13" width="281" heig
