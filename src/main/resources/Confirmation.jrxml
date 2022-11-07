@@ -222,4 +222,7 @@
 			</staticText>
 			<textField>
 				<reportElement x="455" y="30" width="100" height="20" uuid="2ced9936-a43e-4b2f-95f8-f8002e27316f"/>
-				<textFieldExp
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	<
