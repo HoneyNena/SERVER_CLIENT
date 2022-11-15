@@ -10,4 +10,9 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.concurrent.TimeUnit;
 
-import static
+import static org.assertj.core.api.Assertions.assertThat;
+
+@Configuration
+public class ConfirmationSenderIntegrationTest {
+
+ 
