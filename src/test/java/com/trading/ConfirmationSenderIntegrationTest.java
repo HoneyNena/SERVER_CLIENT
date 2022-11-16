@@ -16,4 +16,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ConfirmationSenderIntegrationTest {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
-    private Ra
+    private RabbitTemplate template;
+
+    @Before
+    public void setUp() throws Exception {
+        Confi
