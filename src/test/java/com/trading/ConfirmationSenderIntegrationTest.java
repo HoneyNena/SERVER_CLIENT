@@ -20,4 +20,8 @@ public class ConfirmationSenderIntegrationTest {
 
     @Before
     public void setUp() throws Exception {
-        Confi
+        ConfirmationSenderApplication.main(new String[] {});
+        setupRabbitMq();
+    }
+
+    private vo
