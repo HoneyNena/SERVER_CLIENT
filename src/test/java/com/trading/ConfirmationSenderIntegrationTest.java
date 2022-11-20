@@ -24,4 +24,6 @@ public class ConfirmationSenderIntegrationTest {
         setupRabbitMq();
     }
 
-    private vo
+    private void setupRabbitMq() {
+        CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
+        connectionFact
