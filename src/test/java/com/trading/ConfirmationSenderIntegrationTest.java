@@ -26,4 +26,6 @@ public class ConfirmationSenderIntegrationTest {
 
     private void setupRabbitMq() {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
-        connectionFact
+        connectionFactory.setUri("amqp://guest:guest@localhost");
+
+        template = new RabbitTemplate(connectio
