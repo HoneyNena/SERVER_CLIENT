@@ -28,4 +28,6 @@ public class ConfirmationSenderIntegrationTest {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
         connectionFactory.setUri("amqp://guest:guest@localhost");
 
-        template = new RabbitTemplate(connectio
+        template = new RabbitTemplate(connectionFactory);
+        template.setMessageConverter(new Jackson2JsonMessageConverter());
+ 
