@@ -33,4 +33,6 @@ public class ConfirmationSenderIntegrationTest {
     }
 
     @Test
-    public void receives_enriched_allocation_and_sends_confirmation() throws Excep
+    public void receives_enriched_allocation_and_sends_confirmation() throws Exception {
+
+        String allocationAsJson = OBJECT_MAPPER.writeValueAsString(TestData
