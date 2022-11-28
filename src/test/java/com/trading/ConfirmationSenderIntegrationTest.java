@@ -30,4 +30,7 @@ public class ConfirmationSenderIntegrationTest {
 
         template = new RabbitTemplate(connectionFactory);
         template.setMessageConverter(new Jackson2JsonMessageConverter());
- 
+    }
+
+    @Test
+    public void receives_enriched_allocation_and_sends_confirmation() throws Excep
