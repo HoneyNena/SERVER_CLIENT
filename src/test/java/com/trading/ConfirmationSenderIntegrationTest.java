@@ -36,4 +36,8 @@ public class ConfirmationSenderIntegrationTest {
     public void receives_enriched_allocation_and_sends_confirmation() throws Exception {
 
         String allocationAsJson = OBJECT_MAPPER.writeValueAsString(TestData.confirmation("123123123"));
-        template.convertAndSend("trading-office-exchange", "
+        template.convertAndSend("trading-office-exchange", "enriched.json.allocation.report", allocationAsJson);
+
+        TimeUnit.SECONDS.sleep(3);
+
+  
