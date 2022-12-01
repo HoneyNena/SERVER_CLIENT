@@ -40,4 +40,5 @@ public class ConfirmationSenderIntegrationTest {
 
         TimeUnit.SECONDS.sleep(3);
 
-  
+        Confirmation confirmation = FakeConfirmationSender.getConfirmation();
+        Confi
