@@ -24,3 +24,12 @@ public class EmailConfirmationParserSpec {
     public void retrieves_new_message_and_process_it_finally_saving_with_status_sent() throws Exception {
 
         Confirmation allocationReport = TestData.confirmation(DUMMY_ALLOCATION_ID);
+
+        Optional<Confirmation> confirmation = confirmationParser.parse(allocationReport);
+        Confirmation allocationReportWithStatusSent = confirmation.get();
+
+        assertThat(allocationReportWithStatusSent).isEqualToIgnoringGivenFields(
+                TestData.confirmation(DUMMY_ALLOCATION_ID), "content", "confirmationType"
+        );
+    }
+}
