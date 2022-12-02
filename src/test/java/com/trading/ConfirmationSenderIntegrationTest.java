@@ -42,4 +42,5 @@ public class ConfirmationSenderIntegrationTest {
 
         Confirmation confirmation = FakeConfirmationSender.getConfirmation();
         Confirmation expectedConfirmation = TestData.confirmation("123123123");
-        ex
+        expectedConfirmation.setConfirmationType("EMAIL");
+        assertThat(confirmation).
