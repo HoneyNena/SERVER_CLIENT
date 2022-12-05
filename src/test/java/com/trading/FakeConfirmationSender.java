@@ -10,4 +10,6 @@ public class FakeConfirmationSender implements ConfirmationClient {
     private static Confirmation confirmation;
 
     @Override
-    public v
+    public void send(Confirmation confirmation) {
+        FakeConfirmationSender.confirmation = confirmation;
+    }
