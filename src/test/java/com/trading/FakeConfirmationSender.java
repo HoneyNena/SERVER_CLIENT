@@ -1,4 +1,8 @@
 package com.trading;
 
 import org.springframework.context.annotation.Primary;
-import org.spr
+import org.springframework.stereotype.Service;
+
+@Primary
+@Service
+public class FakeConfirmationSender implemen
