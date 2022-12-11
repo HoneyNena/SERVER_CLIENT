@@ -13,3 +13,6 @@ public class FakeConfirmationSender implements ConfirmationClient {
     public void send(Confirmation confirmation) {
         FakeConfirmationSender.confirmation = confirmation;
     }
+
+    public static Confirmation getConfirmation() {
+        return confirmati
