@@ -15,4 +15,7 @@ public class FakeConfirmationSender implements ConfirmationClient {
     }
 
     public static Confirmation getConfirmation() {
-        return confirmati
+        return confirmation;
+    }
+}
+
