@@ -18,4 +18,7 @@ import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public c
+public class PdfConfirmationGenerationIntegrationTest {
+
+    @Test
+    public void pdf_confirmation_sh
