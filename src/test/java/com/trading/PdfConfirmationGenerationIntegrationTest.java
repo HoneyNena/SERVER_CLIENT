@@ -22,4 +22,4 @@ public class PdfConfirmationGenerationIntegrationTest {
 
     @Test
     public void pdf_confirmation_should_be_easily_generated_from_jrxml_template() throws Exception {
-        InputStream res
+        InputStream resourceAsStream = PdfConfirmationGenerationIntegrationTest.class.getClassLoader().getResourceAsStre
