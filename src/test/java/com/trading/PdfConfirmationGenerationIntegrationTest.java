@@ -22,4 +22,7 @@ public class PdfConfirmationGenerationIntegrationTest {
 
     @Test
     public void pdf_confirmation_should_be_easily_generated_from_jrxml_template() throws Exception {
-        InputStream resourceAsStream = PdfConfirmationGenerationIntegrationTest.class.getClassLoader().getResourceAsStre
+        InputStream resourceAsStream = PdfConfirmationGenerationIntegrationTest.class.getClassLoader().getResourceAsStream("Confirmation.jrxml");
+
+        assert resourceAsStream != null;
+        JasperReport jasperReport = Ja
