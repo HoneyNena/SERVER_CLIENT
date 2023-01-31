@@ -25,4 +25,6 @@ public class PdfConfirmationGenerationIntegrationTest {
         InputStream resourceAsStream = PdfConfirmationGenerationIntegrationTest.class.getClassLoader().getResourceAsStream("Confirmation.jrxml");
 
         assert resourceAsStream != null;
-        JasperReport jasperReport = Ja
+        JasperReport jasperReport = JasperCompileManager.compileReport(resourceAsStream);
+
+        byte[] data = Jasper
