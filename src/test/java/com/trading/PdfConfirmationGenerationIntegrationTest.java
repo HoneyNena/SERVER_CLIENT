@@ -27,4 +27,6 @@ public class PdfConfirmationGenerationIntegrationTest {
         assert resourceAsStream != null;
         JasperReport jasperReport = JasperCompileManager.compileReport(resourceAsStream);
 
-        byte[] data = Jasper
+        byte[] data = JasperRunManager.runReportToPdf(jasperReport, parameters(), new JREmptyDataSource());
+
+        assertThat(
