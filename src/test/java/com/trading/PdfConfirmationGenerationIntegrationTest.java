@@ -29,4 +29,8 @@ public class PdfConfirmationGenerationIntegrationTest {
 
         byte[] data = JasperRunManager.runReportToPdf(jasperReport, parameters(), new JREmptyDataSource());
 
-        assertThat(
+        assertThat(data.length).isGreaterThan(0);
+        Files.write(Paths.get("Test-Confirmation.pdf"), data);
+    }
+
+    
