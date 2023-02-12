@@ -35,3 +35,6 @@ public class PdfConfirmationGenerationIntegrationTest {
 
     private Map<String, Object> parameters() {
         Map<String, Object> map = new HashMap<>();
+        map.put("ALLOC_RPT_ID", "1234");
+        map.put("TRANS_TYPE", "BUY");
+        map.put("INST_ID_TYPE
