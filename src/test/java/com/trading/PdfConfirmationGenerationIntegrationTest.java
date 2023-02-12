@@ -33,4 +33,5 @@ public class PdfConfirmationGenerationIntegrationTest {
         Files.write(Paths.get("Test-Confirmation.pdf"), data);
     }
 
-    
+    private Map<String, Object> parameters() {
+        Map<String, Object> map = new HashMap<>();
