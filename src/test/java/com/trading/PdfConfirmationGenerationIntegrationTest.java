@@ -40,4 +40,8 @@ public class PdfConfirmationGenerationIntegrationTest {
         map.put("INST_ID_TYPE", "SEDOL");
         map.put("INST_ID", "55234");
 
-        map.put("ALLOC_INSTR_NAME", 
+        map.put("ALLOC_INSTR_NAME", "AMAZON STOCKS");
+        map.put("CURRENCY", "USD");
+        map.put("EXCHANGE", "NASDAQ");
+
+   
