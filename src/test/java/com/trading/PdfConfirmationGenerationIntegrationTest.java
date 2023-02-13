@@ -44,4 +44,6 @@ public class PdfConfirmationGenerationIntegrationTest {
         map.put("CURRENCY", "USD");
         map.put("EXCHANGE", "NASDAQ");
 
-   
+        map.put("QUANTITY", "10");
+        map.put("PRICE", "1234.56");
+        map.put("SI
