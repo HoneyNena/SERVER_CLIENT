@@ -46,4 +46,6 @@ public class PdfConfirmationGenerationIntegrationTest {
 
         map.put("QUANTITY", "10");
         map.put("PRICE", "1234.56");
-        map.put("SI
+        map.put("SIDE", "SELL");
+
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM d yyyy",
