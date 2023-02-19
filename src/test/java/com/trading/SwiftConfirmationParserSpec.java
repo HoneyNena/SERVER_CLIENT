@@ -108,3 +108,37 @@ public class SwiftConfirmationParserSpec {
                 MT518.FXIB
         );
     }
+
+    @Test
+    public void generates_swift_confirmation_with_currency_qualifier_for_sell() throws Exception {
+        Field11A field11A = confirmation_for_sell().getField11A().get(0);
+        assertThat(field11A.getQualifier()).isEqualTo(
+                MT518.FXIS
+        );
+    }
+
+    private MT518 confirmation_for_buy() throws IOException {
+        Confirmation allocationReportBuy = TestData.confirmation(
+                UUID.randomUUID().toString(), "BUY"
+        );
+        return mt518(allocationReportBuy);
+    }
+
+    private MT518 confirmation_for_sell() throws IOException {
+        Confirmation allocationReportSell = TestData.confirmation(
+                UUID.randomUUID().toString(), "SELL"
+        );
+        return mt518(allocationReportSell);
+    }
+
+    private MT518 mt518(Confirmation allocationReportSell) throws IOException {
+
+
+        Optional<Confirmation> confirmation = confirmationParser.parse(allocationReportSell);
+
+        String fin = new String(confirmation.get().getContent(), StandardCharsets.UTF_8);
+        SwiftMessage swiftMessage = conversionService.getMessageFromFIN(fin);
+
+        return new MT518(swiftMessage);
+    }
+}
