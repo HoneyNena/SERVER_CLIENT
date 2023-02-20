@@ -8,4 +8,5 @@ class TestData {
         return confirmation(allocationId, "BUY");
     }
 
-    static Confirmati
+    static Confirmation confirmation(String allocationId, String tradeSide) {
+        Confirmation allocationReport = n
