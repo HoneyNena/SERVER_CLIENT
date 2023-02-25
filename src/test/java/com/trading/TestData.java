@@ -9,4 +9,7 @@ class TestData {
     }
 
     static Confirmation confirmation(String allocationId, String tradeSide) {
-        Confirmation allocationReport = n
+        Confirmation allocationReport = new Confirmation();
+
+        allocationReport.setAllocationId(allocationId);
+        alloc
