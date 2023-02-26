@@ -14,4 +14,6 @@ class TestData {
         allocationReport.setAllocationId(allocationId);
         allocationReport.setSecurityId("2000019");
 
-        allocationReport.setPrice(BigDecimal.valueOf(45.12
+        allocationReport.setPrice(BigDecimal.valueOf(45.124));
+        allocationReport.setQuantity(1234);
+        allocationReport.setTradeDate
