@@ -16,4 +16,7 @@ class TestData {
 
         allocationReport.setPrice(BigDecimal.valueOf(45.124));
         allocationReport.setQuantity(1234);
-        allocationReport.setTradeDate
+        allocationReport.setTradeDate("2016-06-03");
+        allocationReport.setTradeSide(tradeSide);
+
+        allocationReport.setIns
