@@ -19,4 +19,6 @@ class TestData {
         allocationReport.setTradeDate("2016-06-03");
         allocationReport.setTradeSide(tradeSide);
 
-        allocationReport.setIns
+        allocationReport.setInstrumentCurrency("USD");
+        allocationReport.setInstrumentExchange("XNAS");
+        allo
