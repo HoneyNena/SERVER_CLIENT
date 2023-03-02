@@ -21,4 +21,5 @@ class TestData {
 
         allocationReport.setInstrumentCurrency("USD");
         allocationReport.setInstrumentExchange("XNAS");
-        allo
+        allocationReport.setInstrumentName("AMAZON STOCKS");
+        allocationReport.setInstrumentSy
