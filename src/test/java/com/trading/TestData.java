@@ -22,4 +22,9 @@ class TestData {
         allocationReport.setInstrumentCurrency("USD");
         allocationReport.setInstrumentExchange("XNAS");
         allocationReport.setInstrumentName("AMAZON STOCKS");
-        allocationReport.setInstrumentSy
+        allocationReport.setInstrumentSymbol("AMZN");
+        allocationReport.setMicCode("XNAS");
+
+        return allocationReport;
+    }
+}
